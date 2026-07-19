@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="External Services Simulator" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="external-services-simulator" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.luisbsl.archlab.simulator.ExternalServicesSimulatorApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

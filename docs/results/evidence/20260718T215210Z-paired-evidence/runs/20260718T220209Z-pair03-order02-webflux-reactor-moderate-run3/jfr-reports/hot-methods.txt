@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+java.lang.Class.getComponentType()                                                                                                                                        3   1.82%
+java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl.accessCheck(Object)                                                               3   1.82%
+com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer.makeChild(int)                                                                                                      2   1.21%
+com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.deserialize(JsonParser, DeserializationContext)                                          2   1.21%
+org.springframework.web.reactive.result.method.RequestMappingInfoHandlerMapping.getHandlerInternal(ServerWebExchange)                                                     2   1.21%
+java.util.concurrent.atomic.AtomicIntegerFieldUpdater$AtomicIntegerFieldUpdaterImpl.accessCheck(Object)                                                                   2   1.21%
+io.netty.handler.codec.http.HttpObjectDecoder.isContentAlwaysEmpty(HttpMessage)                                                                                           2   1.21%
+java.util.concurrent.ConcurrentSkipListMap.doPut(Object, Object, boolean)                                                                                                 2   1.21%
+java.lang.StringBuilder.append(char)                                                                                                                                      2   1.21%
+java.lang.StringConcatHelper.prepend(long, byte[], long)                                                                                                                  2   1.21%
+java.lang.StringBuilder.<init>()                                                                                                                                          2   1.21%
+io.netty.handler.codec.http.HttpRequestEncoder.encodeInitialLine(ByteBuf, HttpRequest)                                                                                    2   1.21%
+org.springframework.util.ObjectUtils.nullSafeEquals(Object, Object)                                                                                                       2   1.21%
+io.micrometer.observation.SimpleObservation.stop()                                                                                                                        2   1.21%
+ch.qos.logback.classic.Logger.isDebugEnabled()                                                                                                                            2   1.21%
+org.springframework.web.server.adapter.HttpWebHandlerAdapter$$Lambda.0x000072c3bc5ea6c8.get()                                                                             2   1.21%
+java.util.concurrent.atomic.AtomicIntegerFieldUpdater$AtomicIntegerFieldUpdaterImpl.getAndIncrement(Object)                                                               1   0.61%
+io.netty.channel.epoll.EpollEventLoop.run()                                                                                                                               1   0.61%
+java.net.URI$Parser.parseIPv4Address(int, int)                                                                                                                            1   0.61%
+java.lang.invoke.LambdaForm$MH.0x000072c3bc6ca400.invoke(Object, Object)                                                                                                  1   0.61%
+reactor.netty.transport.TransportConfig.channelHash()                                                                                                                     1   0.61%
+io.micrometer.observation.ObservationRegistry$ObservationConfig.isObservationEnabled(String, Observation$Context)                                                         1   0.61%
+org.springframework.web.server.ServerWebExchange.getAttribute(String)                                                                                                     1   0.61%
+java.math.BigDecimal.add(long, int, long, int)                                                                                                                            1   0.61%
+io.netty.buffer.AbstractUnpooledSlicedByteBuf.checkSliceOutOfBounds(int, int, ByteBuf)                                                                                    1   0.61%

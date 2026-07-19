@@ -1,0 +1,30 @@
+
+                                                                                Allocation by Class
+
+Object Type                                                                                                                                                     Allocation Pressure
+--------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------
+reactor.netty.http.client.HttpClientOperations                                                                                                                               19.87%
+byte[]                                                                                                                                                                        8.15%
+java.util.concurrent.ConcurrentHashMap$Node[]                                                                                                                                 7.59%
+java.util.concurrent.ConcurrentHashMap$Node                                                                                                                                   3.50%
+java.lang.String                                                                                                                                                              2.94%
+java.lang.Object[]                                                                                                                                                            2.69%
+long[]                                                                                                                                                                        1.71%
+io.netty.handler.codec.DefaultHeaders$HeaderEntry                                                                                                                             1.59%
+int[]                                                                                                                                                                         1.51%
+java.util.LinkedHashMap                                                                                                                                                       1.43%
+java.util.HashMap$Node[]                                                                                                                                                      1.33%
+java.util.LinkedHashMap$Entry                                                                                                                                                 1.21%
+org.springframework.web.reactive.result.method.InvocableHandlerMethod                                                                                                         1.08%
+java.util.HashMap                                                                                                                                                             1.03%
+java.util.ArrayList                                                                                                                                                           1.02%
+io.netty.handler.codec.DefaultHeaders$HeaderEntry[]                                                                                                                           0.99%
+java.util.ArrayList$Itr                                                                                                                                                       0.79%
+java.util.HashMap$Node                                                                                                                                                        0.77%
+org.hibernate.validator.internal.engine.path.NodeImpl                                                                                                                         0.75%
+reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber                                                                                                              0.71%
+io.netty.handler.codec.DefaultHeaders$ValueIterator                                                                                                                           0.64%
+org.springframework.core.ResolvableType                                                                                                                                       0.62%
+reactor.netty.http.client.HttpClientConfig                                                                                                                                    0.57%
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser                                                                                                                          0.53%
+reactor.util.context.Context3                                                                                                                                                 0.52%

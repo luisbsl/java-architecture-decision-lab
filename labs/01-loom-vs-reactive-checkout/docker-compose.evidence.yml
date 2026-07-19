@@ -1,0 +1,26 @@
+services:
+  external-services-simulator:
+    cpus: ${SIMULATOR_CPUS:-2.0}
+    mem_limit: ${SIMULATOR_MEMORY:-1g}
+
+  mvc-virtual-threads:
+    build:
+      args:
+        RUNTIME_IMAGE: eclipse-temurin:21-jdk
+    environment:
+      JAVA_TOOL_OPTIONS: >-
+        -XX:NativeMemoryTracking=summary
+        -Dvisualvm.id=mvc-vthreads
+    cpus: ${APP_CPUS:-2.0}
+    mem_limit: ${APP_MEMORY:-1g}
+
+  webflux-reactor:
+    build:
+      args:
+        RUNTIME_IMAGE: eclipse-temurin:21-jdk
+    environment:
+      JAVA_TOOL_OPTIONS: >-
+        -XX:NativeMemoryTracking=summary
+        -Dvisualvm.id=webflux-reactor
+    cpus: ${APP_CPUS:-2.0}
+    mem_limit: ${APP_MEMORY:-1g}

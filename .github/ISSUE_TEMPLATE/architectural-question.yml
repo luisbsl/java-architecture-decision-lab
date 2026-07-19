@@ -1,0 +1,29 @@
+name: Architectural question
+description: Propose a decision or trade-off for a reproducible lab.
+title: "[Architecture] "
+labels: [architecture, discussion]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What problem or workload should the lab represent?
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Decision question
+      description: What architectural question should the experiment help answer?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence plan
+      description: What code, metrics, profiling, or operational signals would be useful?
+  - type: textarea
+    id: non-goals
+    attributes:
+      label: Non-goals
+      description: What should not be inferred from this experiment?

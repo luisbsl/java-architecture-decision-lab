@@ -1,0 +1,56 @@
+services:
+  external-services-simulator:
+    build:
+      context: ../..
+      dockerfile: labs/01-loom-vs-reactive-checkout/external-services-simulator/Dockerfile
+    image: java-architecture-decision-lab/external-services-simulator:baseline
+    container_name: arch-lab-external-services-simulator
+    ports:
+      - "8083:8083"
+    environment:
+      CUSTOMER_MIN_DELAY: ${CUSTOMER_MIN_DELAY:-80ms}
+      CUSTOMER_MAX_DELAY: ${CUSTOMER_MAX_DELAY:-150ms}
+      CUSTOMER_FAILURE_RATE: ${CUSTOMER_FAILURE_RATE:-0.00}
+      INVENTORY_MIN_DELAY: ${INVENTORY_MIN_DELAY:-100ms}
+      INVENTORY_MAX_DELAY: ${INVENTORY_MAX_DELAY:-250ms}
+      INVENTORY_FAILURE_RATE: ${INVENTORY_FAILURE_RATE:-0.00}
+      PAYMENT_MIN_DELAY: ${PAYMENT_MIN_DELAY:-150ms}
+      PAYMENT_MAX_DELAY: ${PAYMENT_MAX_DELAY:-400ms}
+      PAYMENT_FAILURE_RATE: ${PAYMENT_FAILURE_RATE:-0.00}
+      SIMULATOR_DETERMINISTIC: ${SIMULATOR_DETERMINISTIC:-false}
+      SIMULATOR_SEED: ${WORKLOAD_SEED:-20260718}
+      BENCHMARK_LOG_LEVEL: ${BENCHMARK_LOG_LEVEL:-INFO}
+
+  mvc-virtual-threads:
+    build:
+      context: ../..
+      dockerfile: labs/01-loom-vs-reactive-checkout/mvc-virtual-threads/Dockerfile
+    image: java-architecture-decision-lab/mvc-virtual-threads:local
+    container_name: arch-lab-mvc-virtual-threads
+    ports:
+      - "8081:8081"
+    environment:
+      SIMULATOR_BASE_URL: http://external-services-simulator:8083
+      DOWNSTREAM_READ_TIMEOUT: ${DOWNSTREAM_READ_TIMEOUT:-2s}
+      PERSISTENCE_DELAY: ${PERSISTENCE_DELAY:-40ms}
+      EVENT_PUBLICATION_DELAY: ${EVENT_PUBLICATION_DELAY:-20ms}
+      BENCHMARK_LOG_LEVEL: ${BENCHMARK_LOG_LEVEL:-INFO}
+    depends_on:
+      - external-services-simulator
+
+  webflux-reactor:
+    build:
+      context: ../..
+      dockerfile: labs/01-loom-vs-reactive-checkout/webflux-reactor/Dockerfile
+    image: java-architecture-decision-lab/webflux-reactor:local
+    container_name: arch-lab-webflux-reactor
+    ports:
+      - "8082:8082"
+    environment:
+      SIMULATOR_BASE_URL: http://external-services-simulator:8083
+      DOWNSTREAM_READ_TIMEOUT: ${DOWNSTREAM_READ_TIMEOUT:-2s}
+      PERSISTENCE_DELAY: ${PERSISTENCE_DELAY:-40ms}
+      EVENT_PUBLICATION_DELAY: ${EVENT_PUBLICATION_DELAY:-20ms}
+      BENCHMARK_LOG_LEVEL: ${BENCHMARK_LOG_LEVEL:-INFO}
+    depends_on:
+      - external-services-simulator

@@ -1,0 +1,30 @@
+
+                                                                                 Allocation by Site
+
+Method                                                                                                                                                          Allocation Pressure
+--------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------
+reactor.netty.http.client.HttpClientConfig.lambda$channelOperationsProvider$0(Connection, ConnectionObserver, Object)                                                        19.89%
+java.util.concurrent.ConcurrentHashMap.initTable()                                                                                                                            7.56%
+java.lang.Throwable.fillInStackTrace(int)                                                                                                                                     3.73%
+java.util.concurrent.ConcurrentHashMap.putVal(Object, Object, boolean)                                                                                                        3.42%
+java.util.Arrays.copyOfRangeByte(byte[], int, int)                                                                                                                            2.94%
+jdk.internal.misc.Unsafe.allocateInstance(Class)                                                                                                                              2.84%
+java.util.Arrays.copyOf(byte[], int)                                                                                                                                          1.64%
+java.util.HashMap.resize()                                                                                                                                                    1.55%
+java.lang.invoke.DirectMethodHandle.allocateInstance(Object)                                                                                                                  1.51%
+jdk.internal.misc.Unsafe.allocateUninitializedArray(Class, int)                                                                                                               1.39%
+io.netty.handler.codec.DefaultHeaders.newHeaderEntry(int, Object, Object, DefaultHeaders$HeaderEntry)                                                                         1.16%
+java.lang.AbstractStringBuilder.<init>(int)                                                                                                                                   1.15%
+java.util.Arrays.copyOf(Object[], int, Class)                                                                                                                                 1.09%
+java.util.ArrayList.iterator()                                                                                                                                                0.89%
+java.util.LinkedHashMap.newNode(int, Object, Object, HashMap$Node)                                                                                                            0.82%
+io.netty.handler.codec.DefaultHeaders.<init>(HashingStrategy, ValueConverter, DefaultHeaders$NameValidator, int, DefaultHeaders$ValueValidator)                               0.72%
+java.util.HashMap.newNode(int, Object, Object, HashMap$Node)                                                                                                                  0.62%
+java.lang.StringBuilder.toString()                                                                                                                                            0.62%
+java.lang.StringLatin1.toLowerCase(String, byte[], Locale)                                                                                                                    0.61%
+java.util.ArrayList.<init>(int)                                                                                                                                               0.61%
+reactor.core.publisher.MonoOnErrorResume.subscribeOrReturn(CoreSubscriber)                                                                                                    0.56%
+reactor.netty.http.client.HttpClientFinalizer.duplicate()                                                                                                                     0.51%
+java.util.regex.Matcher.<init>(Pattern, CharSequence)                                                                                                                         0.50%
+io.netty.handler.codec.DefaultHeaders.valueIterator(Object)                                                                                                                   0.48%
+java.util.ArrayList.grow(int)                                                                                                                                                 0.47%

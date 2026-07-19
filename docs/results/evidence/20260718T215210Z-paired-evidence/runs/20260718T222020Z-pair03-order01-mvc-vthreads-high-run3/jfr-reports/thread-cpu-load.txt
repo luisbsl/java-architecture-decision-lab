@@ -1,0 +1,58 @@
+
+                                                                                  Thread CPU Load
+
+Thread                                                                                                                                                                 System  User
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------ -----
+ForkJoinPool-1-worker-1                                                                                                                                                 0.45% 2.74%
+DestroyJavaVM                                                                                                                                                           0.11% 2.55%
+ForkJoinPool-1-worker-2                                                                                                                                                 0.27% 2.34%
+HttpClient-1-SelectorManager                                                                                                                                            1.10% 0.75%
+HttpClient-1-Worker-16                                                                                                                                                  0.38% 0.65%
+HttpClient-1-Worker-8                                                                                                                                                   0.30% 0.55%
+HttpClient-1-Worker-26                                                                                                                                                  0.22% 0.55%
+HttpClient-1-Worker-18                                                                                                                                                  0.21% 0.55%
+HttpClient-1-Worker-23                                                                                                                                                  0.38% 0.50%
+HttpClient-1-Worker-9                                                                                                                                                   0.29% 0.50%
+C2 CompilerThread0                                                                                                                                                      0.00% 0.45%
+HttpClient-1-Worker-15                                                                                                                                                  0.33% 0.40%
+HttpClient-1-Worker-25                                                                                                                                                  0.23% 0.40%
+Attach Listener                                                                                                                                                         0.02% 0.39%
+HttpClient-1-Worker-19                                                                                                                                                  0.14% 0.35%
+HttpClient-1-Worker-24                                                                                                                                                  0.19% 0.30%
+HttpClient-1-Worker-27                                                                                                                                                  0.15% 0.30%
+HttpClient-1-Worker-12                                                                                                                                                  0.18% 0.30%
+HttpClient-1-Worker-0                                                                                                                                                   0.18% 0.25%
+http-nio-8081-Poller                                                                                                                                                    0.12% 0.25%
+HttpClient-1-Worker-1                                                                                                                                                   0.14% 0.25%
+HttpClient-1-Worker-28                                                                                                                                                  0.14% 0.25%
+HttpClient-1-Worker-29                                                                                                                                                  0.10% 0.25%
+HttpClient-1-Worker-11                                                                                                                                                  0.18% 0.20%
+HttpClient-1-Worker-5                                                                                                                                                   0.08% 0.20%
+HttpClient-1-Worker-6                                                                                                                                                   0.12% 0.20%
+HttpClient-1-Worker-17                                                                                                                                                  0.11% 0.20%
+HttpClient-1-Worker-3                                                                                                                                                   0.08% 0.15%
+HttpClient-1-Worker-20                                                                                                                                                  0.05% 0.15%
+HttpClient-1-Worker-2                                                                                                                                                   0.13% 0.15%
+HttpClient-1-Worker-4                                                                                                                                                   0.08% 0.15%
+HttpClient-1-Worker-10                                                                                                                                                  0.01% 0.15%
+Service Thread                                                                                                                                                          0.11% 0.10%
+C1 CompilerThread0                                                                                                                                                      0.00% 0.10%
+VirtualThread-unparker                                                                                                                                                  0.09% 0.10%
+HttpClient-1-Worker-22                                                                                                                                                  0.04% 0.10%
+HttpClient-1-Worker-7                                                                                                                                                   0.03% 0.05%
+Notification Thread                                                                                                                                                     0.00% 0.05%
+http-nio-8081-Acceptor                                                                                                                                                  0.00% 0.05%
+JFR Recorder Thread                                                                                                                                                     0.03% 0.05%
+JFR Periodic Tasks                                                                                                                                                      0.02% 0.05%
+Reference Handler                                                                                                                                                       0.00% 0.05%
+Catalina-utility-1                                                                                                                                                      0.00% 0.05%
+Common-Cleaner                                                                                                                                                          0.00% 0.05%
+Catalina-utility-2                                                                                                                                                      0.00% 0.05%
+Monitor Deflation Thread                                                                                                                                                0.01% 0.00%
+Cleaner-0                                                                                                                                                               0.01% 0.00%
+SimpleAsyncTaskExecutor-176                                                                                                                                            47.59% 0.00%
+container-0                                                                                                                                                             0.01% 0.00%
+CompletableFutureDelayScheduler                                                                                                                                         0.01% 0.00%
+HttpClient-1-Worker-13                                                                                                                                                  0.01% 0.00%
+HttpClient-1-Worker-14                                                                                                                                                  0.05% 0.00%
+HttpClient-1-Worker-21                                                                                                                                                  0.00% 0.00%

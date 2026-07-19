@@ -1,0 +1,48 @@
+# Build outputs
+**/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and local runtime artifacts
+*.log
+logs/
+*.jfr
+*.hprof
+*.heapdump
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Test and profiling outputs
+load-tests/results/
+docs/results/**/*.csv
+docs/results/**/*.json
+!docs/results/**/README.md
+
+# Curated evidence is intentionally small, sanitized, and versioned.
+!docs/results/evidence/**/*.csv
+!docs/results/evidence/**/*.json
+
+# Local evidence and Python caches
+.artifacts/
+**/__pycache__/
+*.py[cod]
+**/build/
+**/*.egg-info/

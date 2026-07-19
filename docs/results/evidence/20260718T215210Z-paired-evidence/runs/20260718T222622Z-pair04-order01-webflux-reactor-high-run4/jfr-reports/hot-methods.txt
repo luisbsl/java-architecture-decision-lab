@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+java.util.concurrent.ConcurrentHashMap.get(Object)                                                                                                                       14   1.97%
+java.lang.ThreadLocal$ThreadLocalMap.getEntry(ThreadLocal)                                                                                                               11   1.55%
+io.netty.util.DefaultAttributeMap.searchAttributeByKey(DefaultAttributeMap$DefaultAttribute[], AttributeKey)                                                             10   1.41%
+java.util.HashMap.putVal(int, Object, Object, boolean, boolean)                                                                                                           9   1.27%
+java.net.URI$Parser.scan(int, int, long, long)                                                                                                                            8   1.13%
+java.lang.invoke.Invokers.checkCustomized(MethodHandle)                                                                                                                   7   0.99%
+java.util.concurrent.CopyOnWriteArrayList.elementAt(Object[], int)                                                                                                        7   0.99%
+java.lang.invoke.DirectMethodHandle.allocateInstance(Object)                                                                                                              7   0.99%
+io.netty.buffer.ByteBufUtil.utf8MaxBytes(CharSequence)                                                                                                                    7   0.99%
+java.lang.StringLatin1.toLowerCase(String, byte[], Locale)                                                                                                                6   0.85%
+org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey.equals(Object)                                                                                             6   0.85%
+reactor.core.publisher.InnerOperator.currentContext()                                                                                                                     6   0.85%
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor$Worker)                                                                                              6   0.85%
+java.util.Arrays.copyOf(Object[], int)                                                                                                                                    6   0.85%
+org.springframework.util.MimeType.isCompatibleWith(MimeType)                                                                                                              6   0.85%
+io.netty.util.internal.PlatformDependent.hashCodeAscii(CharSequence)                                                                                                      5   0.71%
+java.util.HashMap.containsKey(Object)                                                                                                                                     5   0.71%
+com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap.untypedValueSerializer(Class)                                                                        5   0.71%
+java.util.ArrayList.addAll(Collection)                                                                                                                                    5   0.71%
+io.netty.channel.epoll.EpollEventLoop.run()                                                                                                                               4   0.56%
+java.lang.reflect.AccessibleObject.verifyAccess(Class, Class, Class, int)                                                                                                 4   0.56%
+reactor.core.publisher.MonoCreate$DefaultMonoSink.contextView()                                                                                                           4   0.56%
+java.lang.AbstractStringBuilder.ensureCapacityInternal(int)                                                                                                               4   0.56%
+java.util.ComparableTimSort.countRunAndMakeAscending(Object[], int, int)                                                                                                  4   0.56%
+io.netty.buffer.PoolArena.tcacheAllocateSmall(PoolThreadCache, PooledByteBuf, int, int)                                                                                   4   0.56%

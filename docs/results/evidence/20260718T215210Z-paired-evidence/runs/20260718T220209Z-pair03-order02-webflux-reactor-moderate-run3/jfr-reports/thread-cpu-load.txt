@@ -1,0 +1,25 @@
+
+                                                                                  Thread CPU Load
+
+Thread                                                                                                                                                                 System  User
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------ -----
+C2 CompilerThread0                                                                                                                                                      0.00% 3.09%
+DestroyJavaVM                                                                                                                                                           0.11% 2.43%
+reactor-http-epoll-4                                                                                                                                                    0.23% 1.30%
+reactor-http-epoll-2                                                                                                                                                    0.20% 1.20%
+reactor-http-epoll-3                                                                                                                                                    0.07% 0.55%
+Attach Listener                                                                                                                                                         0.03% 0.46%
+parallel-2                                                                                                                                                              0.01% 0.35%
+reactor-http-epoll-1                                                                                                                                                    0.06% 0.30%
+parallel-1                                                                                                                                                              0.06% 0.30%
+C1 CompilerThread0                                                                                                                                                      0.00% 0.15%
+boundedElastic-3                                                                                                                                                        0.02% 0.14%
+Notification Thread                                                                                                                                                     0.00% 0.05%
+JFR Periodic Tasks                                                                                                                                                      0.01% 0.05%
+Reference Handler                                                                                                                                                       0.01% 0.00%
+Service Thread                                                                                                                                                          0.00% 0.00%
+Monitor Deflation Thread                                                                                                                                                0.01% 0.00%
+Cleaner-0                                                                                                                                                               0.01% 0.00%
+server                                                                                                                                                                  0.00% 0.00%
+boundedElastic-1                                                                                                                                                        0.00% 0.00%
+JFR Recorder Thread                                                                                                                                                     0.02% 0.00%

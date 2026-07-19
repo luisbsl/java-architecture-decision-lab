@@ -1,0 +1,31 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+java.util.concurrent.ConcurrentHashMap.get(Object)                                                                                                                       13   2.10%
+org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey.equals(Object)                                                                                            11   1.77%
+java.util.HashMap.putVal(int, Object, Object, boolean, boolean)                                                                                                           9   1.45%
+java.lang.AbstractStringBuilder.ensureCapacityInternal(int)                                                                                                               8   1.29%
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor$Worker)                                                                                              8   1.29%
+java.util.concurrent.locks.AbstractQueuedSynchronizer.signalNext(AbstractQueuedSynchronizer$Node)                                                                         8   1.29%
+org.apache.tomcat.util.net.NioEndpoint$Poller.run()                                                                                                                       7   1.13%
+org.springframework.web.util.pattern.LiteralPathElement.matches(int, PathPattern$MatchingContext)                                                                         6   0.97%
+java.util.TreeMap.containsKey(Object)                                                                                                                                     6   0.97%
+java.util.TreeMap.getEntry(Object)                                                                                                                                        6   0.97%
+java.util.HashMap.get(Object)                                                                                                                                             6   0.97%
+com.fasterxml.jackson.core.JsonFactory._createUTF8Generator(OutputStream, IOContext)                                                                                      6   0.97%
+java.net.URI$Parser.scan(int, int, long, long)                                                                                                                            5   0.81%
+java.lang.invoke.Invokers.checkCustomized(MethodHandle)                                                                                                                   5   0.81%
+java.util.concurrent.CompletableFuture.postComplete()                                                                                                                     5   0.81%
+java.util.concurrent.CompletableFuture.postFire(CompletableFuture, int)                                                                                                   5   0.81%
+jdk.internal.net.http.common.Utils.isValidValue(String)                                                                                                                   5   0.81%
+org.springframework.util.MultiValueMapAdapter.get(Object)                                                                                                                 5   0.81%
+java.lang.ThreadLocal$ThreadLocalMap.set(ThreadLocal, Object)                                                                                                             5   0.81%
+org.apache.coyote.http11.Http11OutputBuffer.write(ByteChunk)                                                                                                              5   0.81%
+org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(Object, MethodParameter, ServletServerHttp       5   0.81%
+Request, ServletServerHttpResponse)                                                                                                                                                
+java.util.concurrent.locks.LockSupport.unpark(Thread)                                                                                                                     5   0.81%
+sun.nio.ch.SocketChannelImpl.configureSocketNonBlockingIfVirtualThread()                                                                                                  4   0.65%
+java.util.Arrays.copyOf(byte[], int)                                                                                                                                      4   0.65%
+java.io.FilterInputStream.read(byte[], int, int)                                                                                                                          4   0.65%

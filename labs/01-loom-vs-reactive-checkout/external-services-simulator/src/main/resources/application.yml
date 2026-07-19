@@ -1,0 +1,56 @@
+server:
+  port: 8083
+  shutdown: graceful
+
+spring:
+  application:
+    name: external-services-simulator
+  lifecycle:
+    timeout-per-shutdown-phase: 10s
+
+simulator:
+  deterministic: ${SIMULATOR_DETERMINISTIC:false}
+  seed: ${SIMULATOR_SEED:20260718}
+  customer:
+    min-delay: ${CUSTOMER_MIN_DELAY:80ms}
+    max-delay: ${CUSTOMER_MAX_DELAY:150ms}
+    failure-rate: ${CUSTOMER_FAILURE_RATE:0.00}
+  inventory:
+    min-delay: ${INVENTORY_MIN_DELAY:100ms}
+    max-delay: ${INVENTORY_MAX_DELAY:250ms}
+    failure-rate: ${INVENTORY_FAILURE_RATE:0.00}
+  payment:
+    min-delay: ${PAYMENT_MIN_DELAY:150ms}
+    max-delay: ${PAYMENT_MAX_DELAY:400ms}
+    failure-rate: ${PAYMENT_FAILURE_RATE:0.00}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      group:
+        liveness:
+          include: livenessState
+        readiness:
+          include: readinessState
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
+info:
+  lab:
+    role: external-services-simulator
+    disclaimer: synthetic-dependencies-only
+
+logging:
+  structured:
+    format:
+      console: logstash
+  level:
+    root: INFO
+    io.github.luisbsl.archlab.simulator: ${BENCHMARK_LOG_LEVEL:INFO}

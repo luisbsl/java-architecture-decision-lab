@@ -1,0 +1,30 @@
+
+                                                                                Allocation by Class
+
+Object Type                                                                                                                                                     Allocation Pressure
+--------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------
+reactor.netty.http.client.HttpClientOperations                                                                                                                               19.85%
+byte[]                                                                                                                                                                        9.35%
+java.util.concurrent.ConcurrentHashMap$Node[]                                                                                                                                 7.47%
+java.util.concurrent.ConcurrentHashMap$Node                                                                                                                                   3.46%
+java.lang.Object[]                                                                                                                                                            3.09%
+java.lang.String                                                                                                                                                              2.33%
+io.netty.handler.codec.DefaultHeaders$HeaderEntry                                                                                                                             1.95%
+long[]                                                                                                                                                                        1.94%
+java.util.LinkedHashMap                                                                                                                                                       1.82%
+int[]                                                                                                                                                                         1.40%
+reactor.core.publisher.MonoOnErrorResume                                                                                                                                      1.30%
+reactor.netty.http.client.HttpClientConfig                                                                                                                                    1.27%
+java.util.HashMap$Node[]                                                                                                                                                      1.15%
+java.util.HashMap                                                                                                                                                             1.05%
+java.util.ArrayList                                                                                                                                                           1.02%
+java.util.LinkedHashMap$Entry                                                                                                                                                 0.88%
+java.util.HashMap$Node                                                                                                                                                        0.82%
+java.util.ArrayList$Itr                                                                                                                                                       0.72%
+org.springframework.core.ResolvableType                                                                                                                                       0.71%
+org.hibernate.validator.internal.engine.path.NodeImpl                                                                                                                         0.67%
+io.netty.handler.codec.DefaultHeaders$HeaderEntry[]                                                                                                                           0.65%
+java.lang.StringBuilder                                                                                                                                                       0.62%
+reactor.core.publisher.FluxPeek$PeekSubscriber                                                                                                                                0.59%
+reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber                                                                                                                     0.57%
+java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode                                                                                                           0.56%

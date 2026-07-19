@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+java.lang.invoke.DirectMethodHandle.allocateInstance(Object)                                                                                                              4   2.15%
+org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(HttpServletRequest, HttpServletResponse, FilterChain)                                         3   1.61%
+java.util.HashMap.putVal(int, Object, Object, boolean, boolean)                                                                                                           3   1.61%
+com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper.detectEncoding()                                                                                               3   1.61%
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor$Worker)                                                                                              3   1.61%
+org.springframework.util.Assert.notNull(Object, String)                                                                                                                   2   1.08%
+org.springframework.http.client.OutputStreamPublisher$$Lambda.0x0000736dcc67f580.run()                                                                                    2   1.08%
+jdk.internal.net.http.common.Logger.log(String, Object[])                                                                                                                 2   1.08%
+org.springframework.web.multipart.support.StandardServletMultipartResolver.isMultipart(HttpServletRequest)                                                                2   1.08%
+java.util.TreeMap.fixAfterInsertion(TreeMap$Entry)                                                                                                                        2   1.08%
+java.lang.String.equals(Object)                                                                                                                                           2   1.08%
+org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(RestClient$RequestHeadersSpec$ExchangeFunction, boolean)                      2   1.08%
+java.util.TreeMap.put(Object, Object, boolean)                                                                                                                            2   1.08%
+java.lang.Class.cast(Object)                                                                                                                                              2   1.08%
+java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.siftDown(int, RunnableScheduledFuture)                                                                  2   1.08%
+java.lang.ThreadLocal$ThreadLocalMap.getEntryAfterMiss(ThreadLocal, int, ThreadLocal$ThreadLocalMap$Entry)                                                                2   1.08%
+org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.getProducibleMediaTypes(HttpServletRequest, Class, Type)                    1   0.54%
+org.springframework.http.client.AbstractClientHttpRequest.execute()                                                                                                       1   0.54%
+java.lang.ThreadLocal.setInitialValue(Thread)                                                                                                                             1   0.54%
+io.github.luisbsl.archlab.checkout.mvc.application.CheckoutService.execute(CheckoutCommand)                                                                               1   0.54%
+org.springframework.web.method.annotation.ModelFactory.initModel(NativeWebRequest, ModelAndViewContainer, HandlerMethod)                                                  1   0.54%
+io.micrometer.observation.ObservationRegistry$ObservationConfig.isObservationEnabled(String, Observation$Context)                                                         1   0.54%
+jdk.internal.net.http.Exchange$$Lambda.0x0000736dcc61d000.<init>(Exchange)                                                                                                1   0.54%
+java.util.regex.Matcher.appendExpandedReplacement(Appendable, String)                                                                                                     1   0.54%
+java.util.List.spliterator()                                                                                                                                              1   0.54%

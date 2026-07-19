@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+java.util.HashMap.getNode(Object)                                                                                                                                         3   1.91%
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor$Worker)                                                                                              3   1.91%
+org.apache.catalina.connector.CoyoteAdapter.postParseRequest(Request, Request, Response, Response)                                                                        2   1.27%
+org.springframework.web.filter.RequestContextFilter.doFilterInternal(HttpServletRequest, HttpServletResponse, FilterChain)                                                2   1.27%
+java.util.HashMap$HashMapSpliterator.getFence()                                                                                                                           2   1.27%
+java.util.stream.FindOps$FindOp.evaluateSequential(PipelineHelper, Spliterator)                                                                                           2   1.27%
+io.micrometer.observation.ObservationHandler$FirstMatchingCompositeObservationHandler.onStart(Observation$Context)                                                        2   1.27%
+java.util.concurrent.CompletableFuture.completeOnTimeout(Object, long, TimeUnit)                                                                                          2   1.27%
+java.lang.Class.cast(Object)                                                                                                                                              2   1.27%
+io.micrometer.common.KeyValue.of(String, String)                                                                                                                          2   1.27%
+java.lang.invoke.LambdaForm$MH.0x000071f3e8109c00.invokeExact_MT(Object, Object, Object, Object, Object)                                                                  2   1.27%
+java.io.InputStream.transferTo(OutputStream)                                                                                                                              2   1.27%
+java.time.Instant.truncatedTo(TemporalUnit)                                                                                                                               1   0.64%
+org.apache.juli.logging.DirectJDKLog.trace(Object)                                                                                                                        1   0.64%
+jdk.internal.net.http.MultiExchange.responseAsyncImpl()                                                                                                                   1   0.64%
+java.lang.Class.getComponentType()                                                                                                                                        1   0.64%
+jdk.internal.net.http.common.HttpBodySubscriberWrapper.complete(Throwable)                                                                                                1   0.64%
+java.util.Optional.map(Function)                                                                                                                                          1   0.64%
+java.nio.charset.Charset.forName(String)                                                                                                                                  1   0.64%
+java.util.ArrayList.grow()                                                                                                                                                1   0.64%
+org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.getProducibleMediaTypes(HttpServletRequest, Class, Type)                    1   0.64%
+java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.siftUp(int, RunnableScheduledFuture)                                                                    1   0.64%
+jdk.internal.net.http.SocketTube$InternalWriteSubscriber$WriteSubscription.requestMore()                                                                                  1   0.64%
+java.util.Collections.unmodifiableList(List)                                                                                                                              1   0.64%
+org.apache.catalina.connector.OutputBuffer.close()                                                                                                                        1   0.64%

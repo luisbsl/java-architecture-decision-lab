@@ -1,0 +1,30 @@
+
+                                                                                 Allocation by Site
+
+Method                                                                                                                                                          Allocation Pressure
+--------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------
+reactor.netty.http.client.HttpClientConfig.lambda$channelOperationsProvider$0(Connection, ConnectionObserver, Object)                                                        19.86%
+java.util.concurrent.ConcurrentHashMap.initTable()                                                                                                                            7.58%
+java.lang.Throwable.fillInStackTrace(int)                                                                                                                                     4.51%
+java.util.concurrent.ConcurrentHashMap.putVal(Object, Object, boolean)                                                                                                        3.53%
+jdk.internal.misc.Unsafe.allocateInstance(Class)                                                                                                                              2.90%
+java.lang.invoke.DirectMethodHandle.allocateInstance(Object)                                                                                                                  2.31%
+java.util.Arrays.copyOfRangeByte(byte[], int, int)                                                                                                                            2.10%
+java.util.Arrays.copyOf(byte[], int)                                                                                                                                          1.68%
+io.netty.handler.codec.DefaultHeaders.<init>(HashingStrategy, ValueConverter, DefaultHeaders$NameValidator, int, DefaultHeaders$ValueValidator)                               1.30%
+java.util.HashMap.resize()                                                                                                                                                    1.23%
+io.netty.handler.codec.DefaultHeaders.newHeaderEntry(int, Object, Object, DefaultHeaders$HeaderEntry)                                                                         1.08%
+jdk.internal.misc.Unsafe.allocateUninitializedArray(Class, int)                                                                                                               1.04%
+java.lang.AbstractStringBuilder.<init>(int)                                                                                                                                   0.94%
+java.lang.StringLatin1.toLowerCase(String, byte[], Locale)                                                                                                                    0.88%
+java.util.ArrayList.iterator()                                                                                                                                                0.82%
+java.util.LinkedHashMap.newNode(int, Object, Object, HashMap$Node)                                                                                                            0.79%
+java.util.HashMap.newNode(int, Object, Object, HashMap$Node)                                                                                                                  0.79%
+reactor.core.publisher.FluxOnAssembly$CheckpointLightSnapshot.<init>(String)                                                                                                  0.60%
+java.lang.StringBuilder.toString()                                                                                                                                            0.58%
+java.util.ArrayList.<init>(int)                                                                                                                                               0.56%
+org.springframework.util.LinkedMultiValueMap.<init>()                                                                                                                         0.56%
+com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper.constructParser(int, ObjectCodec, ByteQuadsCanonicalizer, CharsToNameCanonicalizer, int)                           0.55%
+java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.newConditionNode()                                                                                      0.52%
+java.util.regex.Matcher.<init>(Pattern, CharSequence)                                                                                                                         0.52%
+org.hibernate.validator.internal.engine.path.NodeImpl.setPropertyValue(NodeImpl, Object)                                                                                      0.51%

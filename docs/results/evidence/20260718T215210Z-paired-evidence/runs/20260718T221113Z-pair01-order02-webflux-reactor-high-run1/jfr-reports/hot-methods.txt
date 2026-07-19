@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+java.util.concurrent.ConcurrentHashMap.get(Object)                                                                                                                       16   2.42%
+java.util.HashMap.putVal(int, Object, Object, boolean, boolean)                                                                                                          14   2.12%
+io.netty.util.internal.InternalThreadLocalMap.slowGet()                                                                                                                  12   1.82%
+java.util.concurrent.CopyOnWriteArrayList.elementAt(Object[], int)                                                                                                       11   1.67%
+org.springframework.util.ObjectUtils.nullSafeEquals(Object, Object)                                                                                                      11   1.67%
+io.netty.util.internal.PlatformDependent.hashCodeAscii(CharSequence)                                                                                                      9   1.36%
+io.netty.channel.AbstractChannelHandlerContext.findContextOutbound(int)                                                                                                   7   1.06%
+java.lang.AbstractStringBuilder.ensureCapacityInternal(int)                                                                                                               6   0.91%
+io.netty.buffer.PoolArena.tcacheAllocateSmall(PoolThreadCache, PooledByteBuf, int, int)                                                                                   6   0.91%
+org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey.equals(Object)                                                                                             6   0.91%
+reactor.core.publisher.InnerOperator.currentContext()                                                                                                                     6   0.91%
+java.lang.invoke.Invokers.checkCustomized(MethodHandle)                                                                                                                   5   0.76%
+org.springframework.web.util.pattern.LiteralPathElement.matches(int, PathPattern$MatchingContext)                                                                         5   0.76%
+io.netty.util.internal.PlatformDependent0.hashCodeAscii(byte[], int, int)                                                                                                 5   0.76%
+java.util.HashMap.putMapEntries(Map, boolean)                                                                                                                             5   0.76%
+io.netty.buffer.ByteBufUtil.utf8MaxBytes(CharSequence)                                                                                                                    5   0.76%
+io.netty.util.internal.ReferenceCountUpdater.isLiveNonVolatile(ReferenceCounted)                                                                                          4   0.61%
+io.netty.util.AsciiString.hashCode(CharSequence)                                                                                                                          4   0.61%
+org.springframework.core.ResolvableType.getGenerics()                                                                                                                     4   0.61%
+io.netty.channel.ChannelOutboundBuffer.addFlush()                                                                                                                         4   0.61%
+com.fasterxml.jackson.databind.type.TypeFactory._fromAny(ClassStack, Type, TypeBindings)                                                                                  4   0.61%
+java.lang.invoke.DirectMethodHandle.allocateInstance(Object)                                                                                                              4   0.61%
+com.fasterxml.jackson.core.json.UTF8JsonGenerator._writeStringSegment(String, int, int)                                                                                   4   0.61%
+io.netty.channel.AbstractChannelHandlerContext.findContextInbound(int)                                                                                                    4   0.61%
+reactor.util.context.Context2.hasKey(Object)                                                                                                                              4   0.61%

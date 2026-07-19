@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+jdk.internal.net.http.HttpClientImpl$$Lambda.0x00007180f461f3e0.accept(Object, Object)                                                                                    3   2.03%
+java.math.BigDecimal.<init>(char[], int, int, MathContext)                                                                                                                2   1.35%
+java.util.ArrayList$Itr.next()                                                                                                                                            2   1.35%
+java.lang.StringBuilder.<init>()                                                                                                                                          2   1.35%
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor$Worker)                                                                                              2   1.35%
+java.util.concurrent.locks.ReentrantLock$Sync.lock()                                                                                                                      2   1.35%
+java.lang.Class.cast(Object)                                                                                                                                              2   1.35%
+jdk.internal.net.http.Http1HeaderParser.canContinueParsing(ByteBuffer)                                                                                                    2   1.35%
+java.util.concurrent.SynchronousQueue.poll(long, TimeUnit)                                                                                                                1   0.68%
+java.lang.Class.getComponentType()                                                                                                                                        1   0.68%
+org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.getProducibleMediaTypes(HttpServletRequest, Class, Type)                    1   0.68%
+org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(BaseBeanValidationContext, BeanValueContext)                                     1   0.68%
+java.net.URI$Parser.scan(int, int, long, long)                                                                                                                            1   0.68%
+com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer.findName(int[], int)                                                                                                1   0.68%
+com.fasterxml.jackson.databind.ObjectMapper.getSerializationConfig()                                                                                                      1   0.68%
+org.springframework.web.util.HierarchicalUriComponents.encodeQueryParams(BiFunction)                                                                                      1   0.68%
+org.apache.tomcat.util.buf.ByteChunk.allocate(int, int)                                                                                                                   1   0.68%
+org.apache.coyote.http11.Http11Processor.<init>(AbstractHttp11Protocol, Adapter)                                                                                          1   0.68%
+java.nio.charset.CharsetDecoder.decode(ByteBuffer)                                                                                                                        1   0.68%
+org.springframework.validation.DataBinder.getValidatorsToApply()                                                                                                          1   0.68%
+java.lang.ThreadLocal$ThreadLocalMap.<init>(ThreadLocal, Object)                                                                                                          1   0.68%
+io.micrometer.core.instrument.Meter$Id.<init>(String, Tags, String, String, Meter$Type, Meter$Id)                                                                         1   0.68%
+jdk.internal.util.Preconditions.checkFromIndexSize(int, int, int, BiFunction)                                                                                             1   0.68%
+org.springframework.http.client.OutputStreamPublisher$$Lambda.0x00007180f467d580.run()                                                                                    1   0.68%
+com.fasterxml.jackson.databind.deser.BeanDeserializerBase._delegateDeserializer(JsonParser)                                                                               1   0.68%

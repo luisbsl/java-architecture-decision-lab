@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+io.netty.channel.epoll.EpollEventLoop.run()                                                                                                                               2   1.10%
+java.lang.invoke.Invokers.checkCustomized(MethodHandle)                                                                                                                   2   1.10%
+java.time.format.DateTimeFormatterBuilder$InstantPrinterParser.format(DateTimePrintContext, StringBuilder)                                                                2   1.10%
+com.fasterxml.jackson.core.json.UTF8JsonGenerator._writeStringSegment(String, int, int)                                                                                   2   1.10%
+java.util.concurrent.atomic.AtomicLongFieldUpdater$CASUpdater.accessCheck(Object)                                                                                         2   1.10%
+java.util.concurrent.ConcurrentHashMap.get(Object)                                                                                                                        2   1.10%
+java.util.Objects.requireNonNull(Object, String)                                                                                                                          2   1.10%
+java.util.HashMap.getNode(Object)                                                                                                                                         2   1.10%
+java.lang.StringBuilder.<init>()                                                                                                                                          2   1.10%
+java.lang.invoke.DirectMethodHandle.allocateInstance(Object)                                                                                                              2   1.10%
+reactor.netty.channel.FluxReceive.drainReceiver()                                                                                                                         2   1.10%
+java.net.URI$Parser.parseIPv4Address(int, int)                                                                                                                            1   0.55%
+java.lang.Class.getComponentType()                                                                                                                                        1   0.55%
+io.netty.handler.codec.DefaultHeaders$HeaderIterator.<init>(DefaultHeaders, DefaultHeaders$1)                                                                             1   0.55%
+java.util.concurrent.ConcurrentSkipListMap.putIfAbsent(Object, Object)                                                                                                    1   0.55%
+org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(BaseBeanValidationContext, BeanValueContext)                                     1   0.55%
+java.math.BigDecimal.add(long, int, long, int)                                                                                                                            1   0.55%
+io.netty.handler.codec.http.HttpClientCodec$Decoder.decode(ChannelHandlerContext, ByteBuf, List)                                                                          1   0.55%
+org.springframework.http.HttpHeaders.put(String, List)                                                                                                                    1   0.55%
+org.springframework.core.io.buffer.DataBufferUtils.lambda$join$20(LimitedDataBufferList)                                                                                  1   0.55%
+org.springframework.web.reactive.DispatcherHandler.handleResultMono(ServerWebExchange, Mono)                                                                              1   0.55%
+java.util.Arrays$ArrayItr.hasNext()                                                                                                                                       1   0.55%
+io.netty.channel.AbstractChannelHandlerContext.invokeChannelReadComplete()                                                                                                1   0.55%
+io.netty.channel.DefaultChannelPipeline.context0(String)                                                                                                                  1   0.55%
+io.netty.buffer.CompositeByteBuf.<init>(ByteBufAllocator, boolean, int, int)                                                                                              1   0.55%

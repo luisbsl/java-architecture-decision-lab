@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.1",
+  "audit_policy_version": "2",
+  "controlled_workload_boundary_tolerance": 1,
+  "audit_script_sha256": "81406378a878511f21df5fdf8e40c07fa541e2b38275a4fc19158424130f8968",
+  "suite_id": "20260718T215210Z-paired-evidence",
+  "protocol_version": 4,
+  "status": "pass",
+  "run_count": 16,
+  "failed_run_count": 0,
+  "global_errors": [],
+  "global_warnings": [
+    "controlled_workload_boundary_iteration_delta:high:3:delta=1",
+    "controlled_workload_boundary_iteration_delta:moderate:2:delta=1",
+    "controlled_workload_boundary_iteration_delta:moderate:4:delta=1"
+  ],
+  "runs": [
+    {
+      "run_id": "20260718T215211Z-pair01-order01-mvc-vthreads-moderate-run1",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T215411Z-pair01-order02-webflux-reactor-moderate-run1",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T215612Z-pair02-order01-webflux-reactor-moderate-run2",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T215811Z-pair02-order02-mvc-vthreads-moderate-run2",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T220010Z-pair03-order01-mvc-vthreads-moderate-run3",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T220209Z-pair03-order02-webflux-reactor-moderate-run3",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T220411Z-pair04-order01-webflux-reactor-moderate-run4",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T220611Z-pair04-order02-mvc-vthreads-moderate-run4",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T220811Z-pair01-order01-mvc-vthreads-high-run1",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T221113Z-pair01-order02-webflux-reactor-high-run1",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T221416Z-pair02-order01-webflux-reactor-high-run2",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T221718Z-pair02-order02-mvc-vthreads-high-run2",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T222020Z-pair03-order01-mvc-vthreads-high-run3",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T222321Z-pair03-order02-webflux-reactor-high-run3",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T222622Z-pair04-order01-webflux-reactor-high-run4",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "run_id": "20260718T222924Z-pair04-order02-mvc-vthreads-high-run4",
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

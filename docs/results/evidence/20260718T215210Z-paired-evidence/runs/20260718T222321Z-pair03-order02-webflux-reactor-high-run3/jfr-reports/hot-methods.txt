@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+java.util.concurrent.ConcurrentHashMap.get(Object)                                                                                                                       18   2.57%
+java.util.concurrent.atomic.LongAdder.add(long)                                                                                                                          18   2.57%
+ch.qos.logback.classic.spi.TurboFilterList.getTurboFilterChainDecision(Marker, Logger, Level, String, Object[], Throwable)                                               14   2.00%
+java.util.HashMap.putVal(int, Object, Object, boolean, boolean)                                                                                                          14   2.00%
+java.lang.invoke.Invokers.checkCustomized(MethodHandle)                                                                                                                  10   1.43%
+reactor.util.context.Context2.put(Object, Object)                                                                                                                        10   1.43%
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor$Worker)                                                                                              9   1.28%
+io.netty.util.DefaultAttributeMap.searchAttributeByKey(DefaultAttributeMap$DefaultAttribute[], AttributeKey)                                                              9   1.28%
+java.lang.reflect.AccessibleObject.verifyAccess(Class, Class, Class, int)                                                                                                 7   1.00%
+java.lang.AbstractStringBuilder.ensureCapacityInternal(int)                                                                                                               6   0.86%
+java.lang.invoke.DirectMethodHandle.allocateInstance(Object)                                                                                                              6   0.86%
+java.lang.Class.cast(Object)                                                                                                                                              6   0.86%
+io.netty.handler.codec.http.HttpUtil.isValidTokenChar(byte)                                                                                                               5   0.71%
+java.lang.StringLatin1.toLowerCase(String, byte[], Locale)                                                                                                                5   0.71%
+reactor.core.publisher.InnerOperator.currentContext()                                                                                                                     5   0.71%
+java.util.concurrent.ConcurrentHashMap.putVal(Object, Object, boolean)                                                                                                    5   0.71%
+org.springframework.util.ObjectUtils.nullSafeEquals(Object, Object)                                                                                                       5   0.71%
+com.fasterxml.jackson.databind.util.internal.PrivateMaxEntriesMap.drainOnReadIfNeeded(int, long)                                                                          5   0.71%
+java.util.HashMap.putMapEntries(Map, boolean)                                                                                                                             5   0.71%
+reactor.core.publisher.MonoCreate$DefaultMonoSink.contextView()                                                                                                           4   0.57%
+java.lang.String.equals(Object)                                                                                                                                           4   0.57%
+java.net.URI$Parser.parseServer(int, int, boolean)                                                                                                                        4   0.57%
+reactor.netty.http.server.HttpServerOperations.newFullHttpResponse(ByteBuf, int)                                                                                          4   0.57%
+io.netty.util.concurrent.DefaultPromise.addListener(GenericFutureListener)                                                                                                4   0.57%
+org.springframework.http.server.DefaultPathContainer.createFromUrlPath(String, PathContainer$Options)                                                                     4   0.57%

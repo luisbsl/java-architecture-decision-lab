@@ -1,0 +1,20 @@
+
+                                                                                Garbage Collections
+
+Start    GC ID Type                                                                                                                      Heap Before GC Heap After GC Longest Pause
+-------- ----- ------------------------------------------------------------------------------------------------------------------------- -------------- ------------- -------------
+18:54:46    75 Young Garbage Collection                                                                                                         33.4 MB       21.5 MB       4.33 ms
+18:54:50    76 Young Garbage Collection                                                                                                         34.5 MB       21.5 MB       2.41 ms
+18:54:54    77 Young Garbage Collection                                                                                                         34.5 MB       21.8 MB       2.98 ms
+18:54:57    78 Young Garbage Collection                                                                                                         34.8 MB       21.9 MB       3.04 ms
+18:55:01    79 Young Garbage Collection                                                                                                         34.9 MB       21.9 MB       2.80 ms
+18:55:05    80 Young Garbage Collection                                                                                                         34.9 MB       22.0 MB       2.65 ms
+18:55:09    81 Young Garbage Collection                                                                                                         35.0 MB       22.7 MB       2.38 ms
+18:55:13    82 Young Garbage Collection                                                                                                         35.7 MB       22.8 MB       3.67 ms
+18:55:17    83 Young Garbage Collection                                                                                                         35.8 MB       22.9 MB       2.52 ms
+18:55:21    84 Young Garbage Collection                                                                                                         35.9 MB       23.2 MB       2.61 ms
+18:55:25    85 Young Garbage Collection                                                                                                         36.2 MB       23.2 MB       2.83 ms
+18:55:29    86 Young Garbage Collection                                                                                                         36.2 MB       23.2 MB       2.37 ms
+18:55:33    87 Young Garbage Collection                                                                                                         36.2 MB       23.9 MB       2.27 ms
+18:55:37    88 Young Garbage Collection                                                                                                         36.9 MB       24.0 MB       2.77 ms
+18:55:41    89 Young Garbage Collection                                                                                                         37.0 MB       24.1 MB       2.60 ms

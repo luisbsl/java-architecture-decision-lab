@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+io.netty.channel.epoll.EpollEventLoop.run()                                                                                                                               3   2.01%
+java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl.accessCheck(Object)                                                               3   2.01%
+java.lang.StringBuilder.<init>()                                                                                                                                          3   2.01%
+org.springframework.web.reactive.result.method.annotation.ControllerMethodResolver.getRequestMappingMethod(HandlerMethod)                                                 2   1.34%
+reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(Connection, ConnectionObserver$State)                                                                2   1.34%
+io.netty.util.internal.InternalThreadLocalMap.slowGet()                                                                                                                   2   1.34%
+java.lang.invoke.Invokers$Holder.linkToTargetMethod(Object, Object, Object)                                                                                               2   1.34%
+java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, long, Object)                                                                                             2   1.34%
+io.netty.handler.codec.http.HttpUtil.isValidTokenChar(byte)                                                                                                               2   1.34%
+org.springframework.web.reactive.DispatcherHandler.handleRequestWith(ServerWebExchange, Object)                                                                           2   1.34%
+java.util.concurrent.ConcurrentLinkedDeque.linkLast(Object)                                                                                                               2   1.34%
+java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial(Object, Object)                                                                                               2   1.34%
+java.lang.invoke.VarHandleReferences$FieldInstanceReadWrite.setRelease(VarHandle, Object, Object)                                                                         2   1.34%
+java.lang.invoke.DirectMethodHandle.allocateInstance(Object)                                                                                                              2   1.34%
+io.micrometer.observation.transport.ReceiverContext.<init>(Propagator$Getter, Kind)                                                                                       1   0.67%
+java.util.LinkedList.listIterator(int)                                                                                                                                    1   0.67%
+org.springframework.web.util.DefaultUriBuilderFactory$DefaultUriBuilder.parseUri(String)                                                                                  1   0.67%
+org.springframework.http.server.PathContainer.subPath(int)                                                                                                                1   0.67%
+io.netty.handler.codec.http.HttpHeadersEncoder.writeAscii(ByteBuf, int, CharSequence)                                                                                     1   0.67%
+java.util.concurrent.locks.ReentrantReadWriteLock$NonfairSync.readerShouldBlock()                                                                                         1   0.67%
+io.netty.handler.codec.DefaultHeaders.addObject(Object, Object)                                                                                                           1   0.67%
+reactor.netty.transport.AddressUtils.createInetSocketAddress(String, int, boolean)                                                                                        1   0.67%
+io.netty.handler.codec.http.HttpResponseEncoder.encodeInitialLine(ByteBuf, HttpResponse)                                                                                  1   0.67%
+org.springframework.web.server.adapter.HttpWebHandlerAdapter.handle(ServerHttpRequest, ServerHttpResponse)                                                                1   0.67%
+io.netty.handler.codec.DefaultHeaders.validateName(DefaultHeaders$NameValidator, boolean, Object)                                                                         1   0.67%

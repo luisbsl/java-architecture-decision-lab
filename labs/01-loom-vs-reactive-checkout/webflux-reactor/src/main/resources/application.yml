@@ -1,0 +1,49 @@
+server:
+  port: 8082
+  shutdown: graceful
+
+spring:
+  application:
+    name: webflux-reactor-checkout
+  lifecycle:
+    timeout-per-shutdown-phase: 10s
+
+checkout:
+  downstream:
+    base-url: ${SIMULATOR_BASE_URL:http://localhost:8083}
+    connect-timeout: ${DOWNSTREAM_CONNECT_TIMEOUT:500ms}
+    read-timeout: ${DOWNSTREAM_READ_TIMEOUT:2s}
+  persistence-delay: ${PERSISTENCE_DELAY:40ms}
+  event-publication-delay: ${EVENT_PUBLICATION_DELAY:20ms}
+
+logging:
+  structured:
+    format:
+      console: logstash
+  level:
+    root: INFO
+    io.github.luisbsl.archlab.checkout.webflux: ${BENCHMARK_LOG_LEVEL:INFO}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+      probes:
+        enabled: true
+      group:
+        liveness:
+          include: livenessState
+        readiness:
+          include: readinessState,simulator
+  metrics:
+    tags:
+      application: ${spring.application.name}
+
+info:
+  lab:
+    implementation: webflux-reactor
+    benchmark: non-definitive

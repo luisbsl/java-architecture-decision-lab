@@ -1,0 +1,33 @@
+
+                                                                                  Thread CPU Load
+
+Thread                                                                                                                                                                 System  User
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------ -----
+C2 CompilerThread0                                                                                                                                                      0.02% 4.04%
+DestroyJavaVM                                                                                                                                                           0.11% 2.46%
+ForkJoinPool-1-worker-1                                                                                                                                                 0.13% 1.50%
+ForkJoinPool-1-worker-2                                                                                                                                                 0.12% 1.25%
+Attach Listener                                                                                                                                                         0.03% 0.43%
+HttpClient-1-Worker-6                                                                                                                                                   0.11% 0.37%
+HttpClient-1-Worker-1                                                                                                                                                   0.14% 0.35%
+HttpClient-1-SelectorManager                                                                                                                                            0.19% 0.30%
+HttpClient-1-Worker-4                                                                                                                                                   0.06% 0.30%
+HttpClient-1-Worker-2                                                                                                                                                   0.11% 0.25%
+HttpClient-1-Worker-3                                                                                                                                                   0.04% 0.20%
+HttpClient-1-Worker-0                                                                                                                                                   0.04% 0.20%
+C1 CompilerThread0                                                                                                                                                      0.00% 0.15%
+http-nio-8081-Poller                                                                                                                                                    0.02% 0.10%
+HttpClient-1-Worker-5                                                                                                                                                   0.00% 0.10%
+VirtualThread-unparker                                                                                                                                                  0.00% 0.10%
+Notification Thread                                                                                                                                                     0.00% 0.05%
+JFR Periodic Tasks                                                                                                                                                      0.01% 0.05%
+http-nio-8081-Acceptor                                                                                                                                                  0.01% 0.01%
+Reference Handler                                                                                                                                                       0.01% 0.00%
+Service Thread                                                                                                                                                          0.06% 0.00%
+Monitor Deflation Thread                                                                                                                                                0.01% 0.00%
+Common-Cleaner                                                                                                                                                          0.01% 0.00%
+JFR Recorder Thread                                                                                                                                                     0.02% 0.00%
+Cleaner-0                                                                                                                                                               0.01% 0.00%
+Catalina-utility-1                                                                                                                                                      0.01% 0.00%
+Catalina-utility-2                                                                                                                                                      0.01% 0.00%
+CompletableFutureDelayScheduler                                                                                                                                         0.01% 0.00%

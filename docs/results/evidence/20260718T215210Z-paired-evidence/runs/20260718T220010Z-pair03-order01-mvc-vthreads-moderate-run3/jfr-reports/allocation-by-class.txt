@@ -1,0 +1,30 @@
+
+                                                                                Allocation by Class
+
+Object Type                                                                                                                                                     Allocation Pressure
+--------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------
+byte[]                                                                                                                                                                       13.84%
+java.lang.Object[]                                                                                                                                                            8.27%
+org.springframework.http.client.JdkClientHttpRequest$TimeoutHandler$1                                                                                                         6.83%
+java.lang.String                                                                                                                                                              6.69%
+java.time.Instant                                                                                                                                                             6.42%
+long[]                                                                                                                                                                        5.68%
+int[]                                                                                                                                                                         3.14%
+java.util.ArrayList$Itr                                                                                                                                                       2.12%
+short[]                                                                                                                                                                       1.94%
+jdk.internal.vm.StackChunk                                                                                                                                                    1.80%
+java.util.HashMap$Node[]                                                                                                                                                      1.77%
+java.util.ArrayList                                                                                                                                                           1.63%
+jdk.internal.net.http.common.MinimalFuture                                                                                                                                    1.58%
+java.util.LinkedHashMap                                                                                                                                                       1.39%
+char[]                                                                                                                                                                        1.10%
+java.util.TreeMap$Entry                                                                                                                                                       1.10%
+java.util.LinkedHashMap$Entry                                                                                                                                                 1.08%
+java.util.TreeMap                                                                                                                                                             0.99%
+java.util.HashMap$Node                                                                                                                                                        0.98%
+java.util.stream.ReferencePipeline$Head                                                                                                                                       0.95%
+java.util.HashMap                                                                                                                                                             0.82%
+java.lang.StringBuilder                                                                                                                                                       0.78%
+java.util.concurrent.LinkedTransferQueue$DualNode                                                                                                                             0.60%
+org.hibernate.validator.internal.engine.path.NodeImpl                                                                                                                         0.59%
+java.util.concurrent.ConcurrentHashMap                                                                                                                                        0.58%

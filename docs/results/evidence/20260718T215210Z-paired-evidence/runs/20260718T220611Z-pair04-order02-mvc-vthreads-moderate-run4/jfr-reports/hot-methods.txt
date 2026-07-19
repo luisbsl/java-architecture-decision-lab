@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor$Worker)                                                                                              5   2.86%
+java.lang.Class.getComponentType()                                                                                                                                        3   1.71%
+org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey.equals(Object)                                                                                             3   1.71%
+java.util.regex.Matcher.getTextLength()                                                                                                                                   2   1.14%
+com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer.makeChild(int)                                                                                                      2   1.14%
+com.fasterxml.jackson.core.json.UTF8JsonGenerator._writeStringSegment(String, int, int)                                                                                   2   1.14%
+java.util.concurrent.ConcurrentHashMap.get(Object)                                                                                                                        2   1.14%
+jdk.internal.net.http.HttpClientImpl$$Lambda.0x000078edd461e8b0.accept(Object, Object)                                                                                    2   1.14%
+java.lang.StringBuilder.<init>()                                                                                                                                          2   1.14%
+java.lang.String.hashCode()                                                                                                                                               2   1.14%
+org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.getDataBinderFactory(HandlerMethod)                                                    2   1.14%
+java.lang.AbstractStringBuilder.ensureCapacityInternal(int)                                                                                                               2   1.14%
+java.time.LocalTime.toString()                                                                                                                                            2   1.14%
+org.springframework.web.method.annotation.ModelFactory.findSessionAttributeArguments(HandlerMethod)                                                                       2   1.14%
+com.fasterxml.jackson.databind.deser.std.NumberDeserializers$BooleanDeserializer.deserialize(JsonParser, DeserializationContext)                                          2   1.14%
+org.springframework.web.util.HierarchicalUriComponents.encodeUriComponent(String, Charset, HierarchicalUriComponents$Type)                                                1   0.57%
+org.springframework.core.annotation.AnnotationTypeMappings.forAnnotationType(Class, RepeatableContainers, AnnotationFilter, Set)                                          1   0.57%
+org.springframework.http.server.observation.DefaultServerRequestObservationConvention.getLowCardinalityKeyValues(ServerRequestObservationContext)                         1   0.57%
+java.util.regex.Matcher.appendExpandedReplacement(Appendable, String)                                                                                                     1   0.57%
+java.util.List.spliterator()                                                                                                                                              1   0.57%
+jdk.internal.net.http.Exchange$$Lambda.0x000078edd4633b90.<init>(Exchange)                                                                                                1   0.57%
+org.springframework.beans.BeanWrapperImpl.<init>(Object)                                                                                                                  1   0.57%
+com.fasterxml.jackson.databind.ser.std.StringSerializer.serialize(Object, JsonGenerator, SerializerProvider)                                                              1   0.57%
+org.apache.catalina.connector.CoyoteAdapter.postParseRequest(Request, Request, Response, Response)                                                                        1   0.57%
+java.net.URI$Parser.scan(int, int, long, long)                                                                                                                            1   0.57%

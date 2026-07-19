@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+java.util.concurrent.ConcurrentHashMap.get(Object)                                                                                                                       16   2.77%
+org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey.equals(Object)                                                                                            12   2.08%
+java.util.HashMap.putVal(int, Object, Object, boolean, boolean)                                                                                                          11   1.90%
+java.lang.AbstractStringBuilder.ensureCapacityInternal(int)                                                                                                              11   1.90%
+java.lang.System$2.unparkVirtualThread(Thread)                                                                                                                           10   1.73%
+org.apache.tomcat.util.net.NioEndpoint$Poller.run()                                                                                                                       7   1.21%
+java.lang.ThreadLocal$ThreadLocalMap.getEntryAfterMiss(ThreadLocal, int, ThreadLocal$ThreadLocalMap$Entry)                                                                7   1.21%
+java.io.FilterInputStream.read(byte[], int, int)                                                                                                                          6   1.04%
+java.lang.Class.cast(Object)                                                                                                                                              6   1.04%
+jdk.internal.net.http.Http1HeaderParser.get(ByteBuffer)                                                                                                                   6   1.04%
+java.util.concurrent.CompletableFuture.postComplete()                                                                                                                     5   0.87%
+java.util.concurrent.CompletableFuture.postFire(CompletableFuture, int)                                                                                                   5   0.87%
+java.util.concurrent.ConcurrentHashMap.putVal(Object, Object, boolean)                                                                                                    5   0.87%
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor$Worker)                                                                                              5   0.87%
+java.util.TreeMap.getEntry(Object)                                                                                                                                        5   0.87%
+org.apache.coyote.http11.Http11OutputBuffer.write(ByteChunk)                                                                                                              5   0.87%
+java.util.concurrent.locks.AbstractQueuedSynchronizer.signalNext(AbstractQueuedSynchronizer$Node)                                                                         5   0.87%
+java.net.URI$Parser.scan(int, int, long, long)                                                                                                                            4   0.69%
+com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(JsonParser, DeserializationContext)                                                                 4   0.69%
+java.net.http.HttpHeaders.lambda$headersOf$0(BiPredicate, String, ArrayList, String)                                                                                      4   0.69%
+java.lang.StringLatin1.toLowerCase(String, byte[], Locale)                                                                                                                4   0.69%
+java.lang.VirtualThread.unpark()                                                                                                                                          4   0.69%
+java.util.concurrent.ConcurrentSkipListMap.cpr(Comparator, Object, Object)                                                                                                4   0.69%
+java.util.Objects.requireNonNull(Object, String)                                                                                                                          4   0.69%
+jdk.internal.misc.Unsafe.checkOffset(Object, long)                                                                                                                        4   0.69%

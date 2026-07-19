@@ -1,0 +1,31 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+io.netty.channel.DefaultMaxMessagesRecvByteBufAllocator.maxMessagesPerRead(int)                                                                                           3   1.81%
+io.netty.util.AsciiString$1.equals(CharSequence, CharSequence)                                                                                                            3   1.81%
+io.netty.channel.epoll.EpollEventLoop.run()                                                                                                                               2   1.20%
+java.util.ArrayList.grow()                                                                                                                                                2   1.20%
+reactor.netty.resources.PooledConnectionProvider.lambda$acquire$3(Supplier, TransportConfig, AddressResolverGroup, ConnectionObserver, MonoSink)                          2   1.20%
+java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl.accessCheck(Object)                                                               2   1.20%
+io.netty.util.AsciiString.toString(int)                                                                                                                                   2   1.20%
+io.netty.channel.AdaptiveRecvByteBufAllocator.<init>(int, int, int)                                                                                                       2   1.20%
+io.netty.util.internal.InternalThreadLocalMap.slowGet()                                                                                                                   2   1.20%
+org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey.equals(Object)                                                                                             2   1.20%
+io.netty.util.ReferenceCountUtil.touch(Object, Object)                                                                                                                    2   1.20%
+org.springframework.web.reactive.function.BodyInserters.writeWithMessageWriters(ReactiveHttpOutputMessage, BodyInserter$Context, Object, ResolvableType, ReactiveAd       2   1.20%
+apter)                                                                                                                                                                             
+java.lang.invoke.DirectMethodHandle.allocateInstance(Object)                                                                                                              2   1.20%
+io.netty.util.DefaultAttributeMap.searchAttributeByKey(DefaultAttributeMap$DefaultAttribute[], AttributeKey)                                                              2   1.20%
+io.netty.handler.codec.ByteToMessageDecoder.callDecode(ChannelHandlerContext, ByteBuf, List)                                                                              2   1.20%
+reactor.netty.internal.shaded.reactor.pool.SimpleDequePool.pendingPoll(Deque)                                                                                             1   0.60%
+reactor.core.publisher.SinkManyEmitterProcessor.subscribe(CoreSubscriber)                                                                                                 1   0.60%
+java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.offer(Runnable)                                                                                         1   0.60%
+java.lang.Class.getComponentType()                                                                                                                                        1   0.60%
+io.micrometer.observation.ObservationRegistry$ObservationConfig.isObservationEnabled(String, Observation$Context)                                                         1   0.60%
+com.fasterxml.jackson.databind.introspect.AnnotatedConstructor.call(Object[])                                                                                             1   0.60%
+io.netty.channel.ChannelOutboundBuffer.remove()                                                                                                                           1   0.60%
+reactor.core.publisher.Mono.or(Mono)                                                                                                                                      1   0.60%
+io.netty.buffer.CompositeByteBuf.<init>(ByteBufAllocator, boolean, int, int)                                                                                              1   0.60%
+io.micrometer.core.instrument.Meter$Id.equals(Object)                                                                                                                     1   0.60%

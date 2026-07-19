@@ -1,0 +1,30 @@
+
+                                                                                 Allocation by Site
+
+Method                                                                                                                                                          Allocation Pressure
+--------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------
+java.lang.Throwable.fillInStackTrace(int)                                                                                                                                    14.22%
+org.springframework.http.client.JdkClientHttpRequest$TimeoutHandler.wrapInputStream(HttpResponse)                                                                             7.51%
+java.util.ArrayList.iterator()                                                                                                                                                5.80%
+java.time.Instant.create(long, int)                                                                                                                                           5.63%
+java.io.InputStream.transferTo(OutputStream)                                                                                                                                  3.30%
+jdk.internal.misc.Unsafe.allocateInstance(Class)                                                                                                                              3.12%
+java.util.Arrays.copyOfRangeByte(byte[], int, int)                                                                                                                            2.44%
+java.util.Arrays.copyOf(byte[], int)                                                                                                                                          2.03%
+jdk.internal.vm.Continuation.doYield()                                                                                                                                        1.88%
+java.lang.StringLatin1.toLowerCase(String, byte[], Locale)                                                                                                                    1.75%
+java.lang.invoke.DirectMethodHandle.allocateInstance(Object)                                                                                                                  1.59%
+java.util.HashMap.resize()                                                                                                                                                    1.50%
+jdk.internal.net.http.common.MinimalFuture.newIncompleteFuture()                                                                                                              1.11%
+java.lang.AbstractStringBuilder.<init>(int)                                                                                                                                   1.10%
+com.fasterxml.jackson.core.util.BufferRecycler.balloc(int)                                                                                                                    1.06%
+java.util.HashMap.newNode(int, Object, Object, HashMap$Node)                                                                                                                  1.06%
+java.util.LinkedHashMap.newNode(int, Object, Object, HashMap$Node)                                                                                                            0.91%
+java.net.http.HttpHeaders.headersOf(Map, BiPredicate)                                                                                                                         0.89%
+java.util.ArrayList.grow(int)                                                                                                                                                 0.85%
+java.util.ArrayList.<init>(int)                                                                                                                                               0.75%
+java.util.stream.StreamSupport.stream(Spliterator, boolean)                                                                                                                   0.73%
+com.fasterxml.jackson.core.util.BufferRecycler.calloc(int)                                                                                                                    0.71%
+java.util.TreeMap.addEntry(Object, Object, TreeMap$Entry, boolean)                                                                                                            0.68%
+java.util.Arrays.copyOf(Object[], int)                                                                                                                                        0.65%
+java.nio.HeapByteBuffer.<init>(int, int, MemorySegment)                                                                                                                       0.62%

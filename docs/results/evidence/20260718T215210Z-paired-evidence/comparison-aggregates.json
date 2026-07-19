@@ -1,0 +1,1425 @@
+{
+  "schema_version": "2.0",
+  "suite_id": "20260718T215210Z-paired-evidence",
+  "status": "complete",
+  "completed_runs": 16,
+  "expected_runs": 16,
+  "missing_runs": [],
+  "unexpected_runs": [],
+  "implementation_mismatches": [],
+  "duplicate_slots": [],
+  "invalid_runs": {},
+  "suite": {
+    "SUITE_ID": "20260718T215210Z-paired-evidence",
+    "SCENARIOS": "moderate,high",
+    "PAIRS": "4",
+    "PAIR_ORDER": "odd:mvc-webflux;even:webflux-mvc",
+    "COOLDOWN_SECONDS": "15",
+    "WORKLOAD_SEED": "20260718",
+    "PROTOCOL_VERSION": "4",
+    "PROTOCOL_FINGERPRINT": "a4fed544463e5208363a99e9d866875205ec63bff916440742f817b4b417fe63",
+    "SUITE_CONFIG_FINGERPRINT": "4c6d58203c79a1d36fce0124c644f98462276179276827734dd03c782f7b51e4",
+    "GIT_SHA": "14d95f82c6557a7cf5005d80dc2536923aa91ecf",
+    "GIT_BRANCH": "main"
+  },
+  "groups": [
+    {
+      "implementation": "mvc-vthreads",
+      "stack": "Spring MVC + Tomcat + Virtual Threads + JDK HttpClient",
+      "scenario": "high",
+      "load_model": "constant-arrival-rate",
+      "throughput_semantics": "achieved-arrival-rate",
+      "runs": 4,
+      "rps": {
+        "count": 4,
+        "median": 149.10530017748204,
+        "mean": 149.09965238511455,
+        "min": 149.0793865700529,
+        "max": 149.10862261544116,
+        "cv_percent": 0.007900617820085169
+      },
+      "schedule_adherence_percent": {
+        "count": 4,
+        "median": 99.40353345165471,
+        "mean": 99.39976825674303,
+        "min": 99.3862577133686,
+        "max": 99.40574841029411,
+        "cv_percent": 0.007900617820085762
+      },
+      "dropped_iterations": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "avg_ms": {
+        "count": 4,
+        "median": 632.1407600951436,
+        "mean": 631.7938790800421,
+        "min": 630.0452507550132,
+        "max": 632.848745374868,
+        "cv_percent": 0.17259002682107055
+      },
+      "p95_ms": {
+        "count": 4,
+        "median": 776.4498039499999,
+        "mean": 776.437502975,
+        "min": 775.118875,
+        "max": 777.731529,
+        "cv_percent": 0.15047855595348042
+      },
+      "p99_ms": {
+        "count": 4,
+        "median": 818.704079215,
+        "mean": 820.4630546075,
+        "min": 816.910837,
+        "max": 827.533223,
+        "cv_percent": 0.5091933860178656
+      },
+      "error_percent": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "cpu_avg_percent": {
+        "count": 4,
+        "median": 54.91259259259259,
+        "mean": 54.98990740740741,
+        "min": 54.06296296296296,
+        "max": 56.071481481481484,
+        "cv_percent": 1.6336112312637305
+      },
+      "cpu_p95_percent": {
+        "count": 4,
+        "median": 111.26549999999997,
+        "mean": 110.61599999999999,
+        "min": 100.63,
+        "max": 119.30299999999998,
+        "cv_percent": 6.039214380564052
+      },
+      "memory_baseline_mib": {
+        "count": 4,
+        "median": 172.0,
+        "mean": 173.25,
+        "min": 168.5,
+        "max": 180.5,
+        "cv_percent": 2.867618209814577
+      },
+      "memory_avg_mib": {
+        "count": 4,
+        "median": 378.7777777777778,
+        "mean": 377.52592592592595,
+        "min": 369.6222222222222,
+        "max": 382.9259259259259,
+        "cv_percent": 1.4168414615516016
+      },
+      "memory_peak_mib": {
+        "count": 4,
+        "median": 416.6,
+        "mean": 416.6,
+        "min": 407.8,
+        "max": 425.4,
+        "cv_percent": 1.7263584865443393
+      },
+      "memory_peak_delta_mib": {
+        "count": 4,
+        "median": 241.95,
+        "mean": 243.35,
+        "min": 239.3,
+        "max": 250.2,
+        "cv_percent": 1.6989141897915838
+      },
+      "simulator_cpu_avg_percent": {
+        "count": 4,
+        "median": 24.929074074074073,
+        "mean": 25.00777777777778,
+        "min": 23.659259259259258,
+        "max": 26.513703703703705,
+        "cv_percent": 4.091952104644393
+      },
+      "simulator_memory_peak_mib": {
+        "count": 4,
+        "median": 227.45,
+        "mean": 226.55,
+        "min": 220.5,
+        "max": 230.8,
+        "cv_percent": 1.7435444714191135
+      },
+      "jfr_process_cpu_avg_percent": {
+        "count": 4,
+        "median": 2.5387702780000003,
+        "mean": 2.6295187162499998,
+        "min": 2.489146005,
+        "max": 2.951388304,
+        "cv_percent": 7.109027950509453
+      },
+      "jfr_cpu_one_core_percent": {
+        "count": 4,
+        "median": 55.852946116,
+        "mean": 57.8494117575,
+        "min": 54.761212109999995,
+        "max": 64.930542688,
+        "cv_percent": 7.109027950509455
+      },
+      "jfr_cpu_equivalent_cores": {
+        "count": 4,
+        "median": 0.55852946116,
+        "mean": 0.578494117575,
+        "min": 0.5476121210999999,
+        "max": 0.64930542688,
+        "cv_percent": 7.109027950509457
+      },
+      "jfr_allocation_pressure_mib_s": {
+        "count": 4,
+        "median": 34.910539019,
+        "mean": 34.917791367250004,
+        "min": 34.800376521,
+        "max": 35.04971091,
+        "cv_percent": 0.26440967886112143
+      },
+      "jfr_gc_count": {
+        "count": 4,
+        "median": 231.0,
+        "mean": 230.0,
+        "min": 227.0,
+        "max": 231.0,
+        "cv_percent": 0.7530655685082075
+      },
+      "jfr_gc_pause_total_ms": {
+        "count": 4,
+        "median": 1845.977386,
+        "mean": 1837.69651725,
+        "min": 1767.389147,
+        "max": 1891.44215,
+        "cv_percent": 2.4446811409366385
+      },
+      "jfr_gc_pause_max_ms": {
+        "count": 4,
+        "median": 86.068251,
+        "mean": 85.68326925,
+        "min": 65.95546,
+        "max": 104.641115,
+        "cv_percent": 15.97480096460382
+      },
+      "jfr_gc_pause_ratio_percent": {
+        "count": 4,
+        "median": 1.5082905993350126,
+        "mean": 1.4984214442233874,
+        "min": 1.4382411635865204,
+        "max": 1.5388634146370035,
+        "cv_percent": 2.529089701296151
+      },
+      "jfr_platform_threads_avg": {
+        "count": 4,
+        "median": 49.5424739195,
+        "mean": 49.83476154975,
+        "min": 49.090163934,
+        "max": 51.163934426,
+        "cv_percent": 1.6040367227582528
+      },
+      "jfr_platform_threads_max": {
+        "count": 4,
+        "median": 52.0,
+        "mean": 52.25,
+        "min": 51.0,
+        "max": 54.0,
+        "cv_percent": 2.085597580641471
+      },
+      "jfr_active_threads_avg": {
+        "count": 4,
+        "median": 49.5424739195,
+        "mean": 49.83476154975,
+        "min": 49.090163934,
+        "max": 51.163934426,
+        "cv_percent": 1.6040367227582528
+      },
+      "jfr_active_threads_max": {
+        "count": 4,
+        "median": 52.0,
+        "mean": 52.25,
+        "min": 51.0,
+        "max": 54.0,
+        "cv_percent": 2.085597580641471
+      },
+      "jfr_thread_park_count": {
+        "count": 4,
+        "median": 12355.0,
+        "mean": 12360.75,
+        "min": 12251.0,
+        "max": 12482.0,
+        "cv_percent": 0.8789497132512493
+      },
+      "jfr_monitor_enter_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "jfr_virtual_thread_pinned_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "jfr_data_loss_event_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      }
+    },
+    {
+      "implementation": "mvc-vthreads",
+      "stack": "Spring MVC + Tomcat + Virtual Threads + JDK HttpClient",
+      "scenario": "moderate",
+      "load_model": "constant-arrival-rate",
+      "throughput_semantics": "achieved-arrival-rate",
+      "runs": 4,
+      "rps": {
+        "count": 4,
+        "median": 24.723238639897318,
+        "mean": 24.72602991307818,
+        "min": 24.695313236426458,
+        "max": 24.762329136091626,
+        "cv_percent": 0.11055118547257912
+      },
+      "schedule_adherence_percent": {
+        "count": 4,
+        "median": 98.89295455958927,
+        "mean": 98.90411965231272,
+        "min": 98.78125294570583,
+        "max": 99.0493165443665,
+        "cv_percent": 0.11055118547257912
+      },
+      "dropped_iterations": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "avg_ms": {
+        "count": 4,
+        "median": 634.4322643415978,
+        "mean": 633.886886851012,
+        "min": 630.5160110179883,
+        "max": 636.1670077028642,
+        "cv_percent": 0.33725581176276803
+      },
+      "p95_ms": {
+        "count": 4,
+        "median": 775.2750769249999,
+        "mean": 775.1461322125,
+        "min": 771.69781,
+        "max": 778.336565,
+        "cv_percent": 0.30361934996037687
+      },
+      "p99_ms": {
+        "count": 4,
+        "median": 811.67368923,
+        "mean": 812.112020365,
+        "min": 810.274223,
+        "max": 814.82648,
+        "cv_percent": 0.216260062400688
+      },
+      "error_percent": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "cpu_avg_percent": {
+        "count": 4,
+        "median": 28.1889010989011,
+        "mean": 28.10925824175824,
+        "min": 27.599999999999998,
+        "max": 28.45923076923077,
+        "cv_percent": 1.150807065065863
+      },
+      "cpu_p95_percent": {
+        "count": 4,
+        "median": 45.350999999999985,
+        "mean": 44.45724999999999,
+        "min": 40.90899999999999,
+        "max": 46.217999999999996,
+        "cv_percent": 4.824053194969441
+      },
+      "memory_baseline_mib": {
+        "count": 4,
+        "median": 176.89999999999998,
+        "mean": 176.2,
+        "min": 171.7,
+        "max": 179.3,
+        "cv_percent": 1.6007156386118604
+      },
+      "memory_avg_mib": {
+        "count": 4,
+        "median": 229.74532967032968,
+        "mean": 231.53420329670328,
+        "min": 226.79999999999998,
+        "max": 239.84615384615384,
+        "cv_percent": 2.204501352014584
+      },
+      "memory_peak_mib": {
+        "count": 4,
+        "median": 252.2,
+        "mean": 253.375,
+        "min": 247.2,
+        "max": 261.9,
+        "cv_percent": 2.2847337757304134
+      },
+      "memory_peak_delta_mib": {
+        "count": 4,
+        "median": 74.4,
+        "mean": 77.175,
+        "min": 69.69999999999999,
+        "max": 90.19999999999999,
+        "cv_percent": 10.527721707148611
+      },
+      "simulator_cpu_avg_percent": {
+        "count": 4,
+        "median": 14.00423076923077,
+        "mean": 14.041936813186814,
+        "min": 12.977857142857143,
+        "max": 15.18142857142857,
+        "cv_percent": 5.559353053964265
+      },
+      "simulator_memory_peak_mib": {
+        "count": 4,
+        "median": 174.65,
+        "mean": 177.225,
+        "min": 173.1,
+        "max": 186.5,
+        "cv_percent": 3.0831680007362383
+      },
+      "jfr_process_cpu_avg_percent": {
+        "count": 4,
+        "median": 1.2621189149999998,
+        "mean": 1.27112156425,
+        "min": 1.257768474,
+        "max": 1.302479953,
+        "cv_percent": 1.442697039478351
+      },
+      "jfr_cpu_one_core_percent": {
+        "count": 4,
+        "median": 27.76661613,
+        "mean": 27.9646744135,
+        "min": 27.670906428,
+        "max": 28.654558966,
+        "cv_percent": 1.4426970394783514
+      },
+      "jfr_cpu_equivalent_cores": {
+        "count": 4,
+        "median": 0.2776661613,
+        "mean": 0.279646744135,
+        "min": 0.27670906427999997,
+        "max": 0.28654558966,
+        "cv_percent": 1.442697039478351
+      },
+      "jfr_allocation_pressure_mib_s": {
+        "count": 4,
+        "median": 7.5030706275,
+        "mean": 7.497950211,
+        "min": 7.44861459,
+        "max": 7.537044999,
+        "cv_percent": 0.48195181303508666
+      },
+      "jfr_gc_count": {
+        "count": 4,
+        "median": 34.0,
+        "mean": 34.0,
+        "min": 34.0,
+        "max": 34.0,
+        "cv_percent": 0.0
+      },
+      "jfr_gc_pause_total_ms": {
+        "count": 4,
+        "median": 84.21576999999999,
+        "mean": 84.02311225,
+        "min": 81.434372,
+        "max": 86.226537,
+        "cv_percent": 2.2592367327060563
+      },
+      "jfr_gc_pause_max_ms": {
+        "count": 4,
+        "median": 5.103498,
+        "mean": 5.36149425,
+        "min": 4.446838,
+        "max": 6.792143,
+        "cv_percent": 16.485782198139326
+      },
+      "jfr_gc_pause_ratio_percent": {
+        "count": 4,
+        "median": 0.13589209517418388,
+        "mean": 0.1350325451910331,
+        "min": 0.13042008661401594,
+        "max": 0.13792590380174874,
+        "cv_percent": 2.1084604955020554
+      },
+      "jfr_platform_threads_avg": {
+        "count": 4,
+        "median": 26.0241935485,
+        "mean": 26.20941300925,
+        "min": 25.93442623,
+        "max": 26.85483871,
+        "cv_percent": 1.4327617164723567
+      },
+      "jfr_platform_threads_max": {
+        "count": 4,
+        "median": 27.0,
+        "mean": 27.0,
+        "min": 27.0,
+        "max": 27.0,
+        "cv_percent": 0.0
+      },
+      "jfr_active_threads_avg": {
+        "count": 4,
+        "median": 26.0241935485,
+        "mean": 26.20941300925,
+        "min": 25.93442623,
+        "max": 26.85483871,
+        "cv_percent": 1.4327617164723567
+      },
+      "jfr_active_threads_max": {
+        "count": 4,
+        "median": 27.0,
+        "mean": 27.0,
+        "min": 27.0,
+        "max": 27.0,
+        "cv_percent": 0.0
+      },
+      "jfr_thread_park_count": {
+        "count": 4,
+        "median": 12110.5,
+        "mean": 12102.75,
+        "min": 12017.0,
+        "max": 12173.0,
+        "cv_percent": 0.5697702387592749
+      },
+      "jfr_monitor_enter_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "jfr_virtual_thread_pinned_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "jfr_data_loss_event_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      }
+    },
+    {
+      "implementation": "webflux-reactor",
+      "stack": "Spring WebFlux + Reactor Netty + WebClient",
+      "scenario": "high",
+      "load_model": "constant-arrival-rate",
+      "throughput_semantics": "achieved-arrival-rate",
+      "runs": 4,
+      "rps": {
+        "count": 4,
+        "median": 149.101749551362,
+        "mean": 149.0983193246561,
+        "min": 149.08082563738756,
+        "max": 149.1089525585128,
+        "cv_percent": 0.007362928075635652
+      },
+      "schedule_adherence_percent": {
+        "count": 4,
+        "median": 99.40116636757466,
+        "mean": 99.39887954977073,
+        "min": 99.38721709159171,
+        "max": 99.40596837234187,
+        "cv_percent": 0.007362928075634799
+      },
+      "dropped_iterations": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "avg_ms": {
+        "count": 4,
+        "median": 630.9199407325148,
+        "mean": 630.669860497923,
+        "min": 629.5654035950556,
+        "max": 631.2741569316066,
+        "cv_percent": 0.10554608160722953
+      },
+      "p95_ms": {
+        "count": 4,
+        "median": 773.7707945499999,
+        "mean": 773.753136275,
+        "min": 773.301529,
+        "max": 774.169427,
+        "cv_percent": 0.04432435532894385
+      },
+      "p99_ms": {
+        "count": 4,
+        "median": 813.50456573,
+        "mean": 813.528703615,
+        "min": 812.179544,
+        "max": 814.926139,
+        "cv_percent": 0.1404285723938205
+      },
+      "error_percent": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "cpu_avg_percent": {
+        "count": 4,
+        "median": 36.63425925925926,
+        "mean": 36.04398148148148,
+        "min": 33.43666666666667,
+        "max": 37.470740740740744,
+        "cv_percent": 4.354520582198759
+      },
+      "cpu_p95_percent": {
+        "count": 4,
+        "median": 88.44299999999998,
+        "mean": 86.82925,
+        "min": 68.15400000000001,
+        "max": 102.277,
+        "cv_percent": 14.632909898174102
+      },
+      "memory_baseline_mib": {
+        "count": 4,
+        "median": 183.3,
+        "mean": 184.175,
+        "min": 179.6,
+        "max": 190.5,
+        "cv_percent": 2.3202885898001457
+      },
+      "memory_avg_mib": {
+        "count": 4,
+        "median": 297.1462962962963,
+        "mean": 297.3388888888889,
+        "min": 294.6666666666667,
+        "max": 300.39629629629627,
+        "cv_percent": 0.8725191337769651
+      },
+      "memory_peak_mib": {
+        "count": 4,
+        "median": 318.5,
+        "mean": 318.35,
+        "min": 315.5,
+        "max": 320.9,
+        "cv_percent": 0.7892159275263773
+      },
+      "memory_peak_delta_mib": {
+        "count": 4,
+        "median": 134.89999999999998,
+        "mean": 134.175,
+        "min": 130.3,
+        "max": 136.6,
+        "cv_percent": 1.7584666285504764
+      },
+      "simulator_cpu_avg_percent": {
+        "count": 4,
+        "median": 23.764814814814812,
+        "mean": 23.758333333333333,
+        "min": 23.391851851851854,
+        "max": 24.111851851851853,
+        "cv_percent": 1.0862107559687064
+      },
+      "simulator_memory_peak_mib": {
+        "count": 4,
+        "median": 224.15,
+        "mean": 224.05,
+        "min": 220.8,
+        "max": 227.1,
+        "cv_percent": 1.153784062013883
+      },
+      "jfr_process_cpu_avg_percent": {
+        "count": 4,
+        "median": 1.610487398,
+        "mean": 1.61146502675,
+        "min": 1.605308653,
+        "max": 1.619576658,
+        "cv_percent": 0.3212725561878901
+      },
+      "jfr_cpu_one_core_percent": {
+        "count": 4,
+        "median": 35.430722756,
+        "mean": 35.4522305885,
+        "min": 35.316790366,
+        "max": 35.630686476,
+        "cv_percent": 0.3212725561878931
+      },
+      "jfr_cpu_equivalent_cores": {
+        "count": 4,
+        "median": 0.35430722756,
+        "mean": 0.354522305885,
+        "min": 0.35316790366,
+        "max": 0.35630686476,
+        "cv_percent": 0.3212725561878924
+      },
+      "jfr_allocation_pressure_mib_s": {
+        "count": 4,
+        "median": 18.372739188,
+        "mean": 18.380244842,
+        "min": 18.336309671,
+        "max": 18.439191321,
+        "cv_percent": 0.22633637238645152
+      },
+      "jfr_gc_count": {
+        "count": 4,
+        "median": 134.0,
+        "mean": 134.0,
+        "min": 134.0,
+        "max": 134.0,
+        "cv_percent": 0.0
+      },
+      "jfr_gc_pause_total_ms": {
+        "count": 4,
+        "median": 1965.926784,
+        "mean": 1963.48146025,
+        "min": 1928.899038,
+        "max": 1993.173235,
+        "cv_percent": 1.4650884643547162
+      },
+      "jfr_gc_pause_max_ms": {
+        "count": 4,
+        "median": 57.942071999999996,
+        "mean": 57.40239475,
+        "min": 53.267402,
+        "max": 60.458033,
+        "cv_percent": 4.659249413256903
+      },
+      "jfr_gc_pause_ratio_percent": {
+        "count": 4,
+        "median": 1.5995841357700253,
+        "mean": 1.5977750110257696,
+        "min": 1.5698767331251453,
+        "max": 1.6220550394378819,
+        "cv_percent": 1.471261668200292
+      },
+      "jfr_platform_threads_avg": {
+        "count": 4,
+        "median": 20.200819672,
+        "mean": 20.206967213,
+        "min": 20.18852459,
+        "max": 20.237704918,
+        "cv_percent": 0.10090127165252408
+      },
+      "jfr_platform_threads_max": {
+        "count": 4,
+        "median": 21.0,
+        "mean": 21.0,
+        "min": 21.0,
+        "max": 21.0,
+        "cv_percent": 0.0
+      },
+      "jfr_active_threads_avg": {
+        "count": 4,
+        "median": 20.200819672,
+        "mean": 20.206967213,
+        "min": 20.18852459,
+        "max": 20.237704918,
+        "cv_percent": 0.10090127165252408
+      },
+      "jfr_active_threads_max": {
+        "count": 4,
+        "median": 21.0,
+        "mean": 21.0,
+        "min": 21.0,
+        "max": 21.0,
+        "cv_percent": 0.0
+      },
+      "jfr_thread_park_count": {
+        "count": 4,
+        "median": 7704.0,
+        "mean": 7705.75,
+        "min": 7648.0,
+        "max": 7767.0,
+        "cv_percent": 0.6000082113430207
+      },
+      "jfr_monitor_enter_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "jfr_virtual_thread_pinned_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "jfr_data_loss_event_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      }
+    },
+    {
+      "implementation": "webflux-reactor",
+      "stack": "Spring WebFlux + Reactor Netty + WebClient",
+      "scenario": "moderate",
+      "load_model": "constant-arrival-rate",
+      "throughput_semantics": "achieved-arrival-rate",
+      "runs": 4,
+      "rps": {
+        "count": 4,
+        "median": 24.72429042047621,
+        "mean": 24.726799704398083,
+        "min": 24.678899939288893,
+        "max": 24.779718037351017,
+        "cv_percent": 0.15412940212663084
+      },
+      "schedule_adherence_percent": {
+        "count": 4,
+        "median": 98.89716168190483,
+        "mean": 98.90719881759233,
+        "min": 98.71559975715557,
+        "max": 99.11887214940407,
+        "cv_percent": 0.15412940212663084
+      },
+      "dropped_iterations": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "avg_ms": {
+        "count": 4,
+        "median": 633.5817303208373,
+        "mean": 633.1182061898993,
+        "min": 629.8256157834782,
+        "max": 635.4837483344443,
+        "cv_percent": 0.3333925389622331
+      },
+      "p95_ms": {
+        "count": 4,
+        "median": 774.421994,
+        "mean": 774.1342939125,
+        "min": 770.4919966499999,
+        "max": 777.201191,
+        "cv_percent": 0.31052482062606485
+      },
+      "p99_ms": {
+        "count": 4,
+        "median": 810.7019419999999,
+        "mean": 811.70998902,
+        "min": 808.467266,
+        "max": 816.9688060799999,
+        "cv_percent": 0.39174758182532127
+      },
+      "error_percent": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "cpu_avg_percent": {
+        "count": 4,
+        "median": 21.01535714285714,
+        "mean": 21.365068681318682,
+        "min": 20.753846153846155,
+        "max": 22.675714285714285,
+        "cv_percent": 3.5835252609990578
+      },
+      "cpu_p95_percent": {
+        "count": 4,
+        "median": 36.391999999999996,
+        "mean": 38.65999999999999,
+        "min": 35.75649999999999,
+        "max": 46.09949999999999,
+        "cv_percent": 11.138519556921574
+      },
+      "memory_baseline_mib": {
+        "count": 4,
+        "median": 188.45,
+        "mean": 187.15,
+        "min": 181.7,
+        "max": 190.0,
+        "cv_percent": 1.760252889129485
+      },
+      "memory_avg_mib": {
+        "count": 4,
+        "median": 230.0782967032967,
+        "mean": 229.81771978021976,
+        "min": 222.81428571428572,
+        "max": 236.29999999999998,
+        "cv_percent": 2.2279838065222823
+      },
+      "memory_peak_mib": {
+        "count": 4,
+        "median": 252.75,
+        "mean": 252.5,
+        "min": 234.8,
+        "max": 269.7,
+        "cv_percent": 5.281971749841239
+      },
+      "memory_peak_delta_mib": {
+        "count": 4,
+        "median": 66.89999999999999,
+        "mean": 65.35,
+        "min": 45.30000000000001,
+        "max": 82.29999999999998,
+        "cv_percent": 23.57597215891822
+      },
+      "simulator_cpu_avg_percent": {
+        "count": 4,
+        "median": 13.009725274725275,
+        "mean": 13.008255494505494,
+        "min": 12.047857142857143,
+        "max": 13.965714285714286,
+        "cv_percent": 5.333130249280411
+      },
+      "simulator_memory_peak_mib": {
+        "count": 4,
+        "median": 177.5,
+        "mean": 178.175,
+        "min": 175.9,
+        "max": 181.8,
+        "cv_percent": 1.3846832033977179
+      },
+      "jfr_process_cpu_avg_percent": {
+        "count": 4,
+        "median": 1.0087886799999999,
+        "mean": 1.0074603985000001,
+        "min": 0.976962957,
+        "max": 1.035301277,
+        "cv_percent": 2.133791938241413
+      },
+      "jfr_cpu_one_core_percent": {
+        "count": 4,
+        "median": 22.19335096,
+        "mean": 22.164128767,
+        "min": 21.493185054,
+        "max": 22.776628094000003,
+        "cv_percent": 2.1337919382414148
+      },
+      "jfr_cpu_equivalent_cores": {
+        "count": 4,
+        "median": 0.2219335096,
+        "mean": 0.22164128767000002,
+        "min": 0.21493185054000002,
+        "max": 0.22776628094000004,
+        "cv_percent": 2.133791938241414
+      },
+      "jfr_allocation_pressure_mib_s": {
+        "count": 4,
+        "median": 4.52110524,
+        "mean": 4.5315009037500005,
+        "min": 4.501155778,
+        "max": 4.582637357,
+        "cv_percent": 0.677962700900473
+      },
+      "jfr_gc_count": {
+        "count": 4,
+        "median": 15.0,
+        "mean": 15.0,
+        "min": 15.0,
+        "max": 15.0,
+        "cv_percent": 0.0
+      },
+      "jfr_gc_pause_total_ms": {
+        "count": 4,
+        "median": 43.240283500000004,
+        "mean": 43.21149725,
+        "min": 42.220339,
+        "max": 44.145083,
+        "cv_percent": 2.0766495636973454
+      },
+      "jfr_gc_pause_max_ms": {
+        "count": 4,
+        "median": 4.248322999999999,
+        "mean": 4.4114629999999995,
+        "min": 3.770469,
+        "max": 5.378737,
+        "cv_percent": 13.478902446986908
+      },
+      "jfr_gc_pause_ratio_percent": {
+        "count": 4,
+        "median": 0.0697953856813056,
+        "mean": 0.06946129792571706,
+        "min": 0.0675892454225475,
+        "max": 0.07066517491770957,
+        "cv_percent": 1.8229810985819568
+      },
+      "jfr_platform_threads_avg": {
+        "count": 4,
+        "median": 21.0,
+        "mean": 21.0,
+        "min": 21.0,
+        "max": 21.0,
+        "cv_percent": 0.0
+      },
+      "jfr_platform_threads_max": {
+        "count": 4,
+        "median": 21.0,
+        "mean": 21.0,
+        "min": 21.0,
+        "max": 21.0,
+        "cv_percent": 0.0
+      },
+      "jfr_active_threads_avg": {
+        "count": 4,
+        "median": 21.0,
+        "mean": 21.0,
+        "min": 21.0,
+        "max": 21.0,
+        "cv_percent": 0.0
+      },
+      "jfr_active_threads_max": {
+        "count": 4,
+        "median": 21.0,
+        "mean": 21.0,
+        "min": 21.0,
+        "max": 21.0,
+        "cv_percent": 0.0
+      },
+      "jfr_thread_park_count": {
+        "count": 4,
+        "median": 3692.5,
+        "mean": 3692.75,
+        "min": 3690.0,
+        "max": 3696.0,
+        "cv_percent": 0.05863011331558044
+      },
+      "jfr_monitor_enter_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "jfr_virtual_thread_pinned_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      },
+      "jfr_data_loss_event_count": {
+        "count": 4,
+        "median": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "cv_percent": 0.0
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "scenario": "high",
+      "completed_pairs": 4,
+      "metrics": {
+        "rps": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": 0.0007164818358376124,
+            "mean": -0.0013330604584425032,
+            "min": -0.00820427284011771,
+            "max": 0.0014390673346724725,
+            "cv_percent": 299.1183059184334
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": 0.0004805187655868241,
+            "mean": -0.000893996681870303,
+            "min": -0.005502326952596555,
+            "max": 0.0009653026939416941,
+            "cv_percent": 299.1355156351593
+          }
+        },
+        "avg_ms": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -1.1319339720146786,
+            "mean": -1.1240185821191346,
+            "min": -1.7523592244896236,
+            "max": -0.4798471599575578,
+            "cv_percent": 41.12862763558146
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -0.17904808993913968,
+            "mean": -0.17778927276607046,
+            "min": -0.27690016568676507,
+            "max": -0.07616074549923742,
+            "cv_percent": 41.01421719787425
+          }
+        },
+        "p95_ms": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -2.679009400000041,
+            "mean": -2.6843667000000266,
+            "min": -3.5621019999999817,
+            "max": -1.8173460000000432,
+            "cv_percent": 31.11669936443411
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -0.34490011682790744,
+            "mean": -0.3455680765042501,
+            "min": -0.4580117774806043,
+            "max": -0.23446029488058115,
+            "cv_percent": 30.981138458490214
+          }
+        },
+        "p99_ms": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -6.287220315000013,
+            "mean": -6.934350992500015,
+            "min": -12.607083999999986,
+            "max": -2.555879340000047,
+            "cv_percent": 52.31631003951871
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -0.7678975837764932,
+            "mean": -0.8430299898393246,
+            "min": -1.5234535181918596,
+            "max": -0.3128712736124526,
+            "cv_percent": 51.772101901695464
+          }
+        },
+        "cpu_avg_percent": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -18.278333333333332,
+            "mean": -18.945925925925927,
+            "min": -22.634814814814817,
+            "max": -16.59222222222222,
+            "cv_percent": 11.893637594950492
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -33.28337313537564,
+            "mean": -34.40627090798689,
+            "min": -40.36778450787025,
+            "max": -30.690552853326018,
+            "cv_percent": 10.474414604571773
+          }
+        },
+        "memory_peak_delta_mib": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -108.2,
+            "mean": -109.175,
+            "min": -113.6,
+            "max": -106.69999999999999,
+            "cv_percent": 2.4615110118910977
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -44.82792011137691,
+            "mean": -44.86062681244652,
+            "min": -45.54951943167572,
+            "max": -44.23714759535655,
+            "cv_percent": 1.3779313444866639
+          }
+        },
+        "jfr_cpu_one_core_percent": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -20.31239551,
+            "mean": -22.397181169,
+            "min": -29.519511912,
+            "max": -19.444421743999996,
+            "cv_percent": 18.430883113901757
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -36.367584225535005,
+            "mean": -38.42650925299889,
+            "min": -45.46321452116183,
+            "max": -35.50765403976372,
+            "cv_percent": 10.617033448896604
+          }
+        },
+        "jfr_allocation_pressure_mib_s": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -16.569266835500002,
+            "mean": -16.53754652525,
+            "min": -16.65046723,
+            "max": -16.361185199999998,
+            "cv_percent": 0.6724054304794894
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -47.44837308071713,
+            "mean": -47.360921202365155,
+            "min": -47.532547323475676,
+            "max": -47.014391324550694,
+            "cv_percent": 0.43696398181386537
+          }
+        },
+        "jfr_gc_pause_ratio_percent": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": 0.09230633261606791,
+            "mean": 0.09935356680238216,
+            "min": 0.031013318488141817,
+            "max": 0.18178828348925102,
+            "cv_percent": 54.52944586528592
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": 6.115345319845958,
+            "mean": 6.721413616382455,
+            "min": 2.0153392557881706,
+            "max": 12.639624570049735,
+            "cv_percent": 56.926339719626306
+          }
+        },
+        "jfr_platform_threads_max": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -31.0,
+            "mean": -31.25,
+            "min": -33.0,
+            "max": -30.0,
+            "cv_percent": 3.4871191548325395
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -59.61538461538461,
+            "mean": -59.791352438411266,
+            "min": -61.111111111111114,
+            "max": -58.82352941176471,
+            "cv_percent": 1.384320097283871
+          }
+        }
+      }
+    },
+    {
+      "scenario": "moderate",
+      "completed_pairs": 4,
+      "metrics": {
+        "rps": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": 0.0010517805788943235,
+            "mean": 0.0007697913199038453,
+            "min": -0.016413297137564342,
+            "max": 0.017388901259391076,
+            "cv_percent": 1552.9589187265428
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": 0.0042546114567697,
+            "mean": 0.0030673053550772014,
+            "min": -0.06646320692686801,
+            "max": 0.07022320543363741,
+            "cv_percent": 1576.0380332376212
+          }
+        },
+        "avg_ms": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -0.7410101421870081,
+            "mean": -0.768680661112711,
+            "min": -0.9094429916568743,
+            "max": -0.6832593684199537,
+            "cv_percent": 11.952619958194386
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -0.11721071406684729,
+            "mean": -0.12125056379750943,
+            "min": -0.14317831165600267,
+            "max": -0.10740251540034043,
+            "cv_percent": 11.838964567449612
+          }
+        },
+        "p95_ms": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -1.0990879249999352,
+            "mean": -1.0118382999999653,
+            "min": -1.205813350000085,
+            "max": -0.6433639999999059,
+            "cv_percent": 21.61069206764939
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -0.14149381407559194,
+            "mean": -0.130552529101126,
+            "min": -0.15625460308097608,
+            "max": -0.082967885172344,
+            "cv_percent": 21.674029041771544
+          }
+        },
+        "p99_ms": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": 0.11656249999998636,
+            "mean": -0.4020313450000117,
+            "min": -3.9835764599999948,
+            "max": 2.1423260799999753,
+            "cv_percent": 565.9772117194028
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": 0.01441128990521174,
+            "mean": -0.04964383639106204,
+            "min": -0.4903159984348372,
+            "max": 0.26291807306016557,
+            "cv_percent": 563.7908349507471
+          }
+        },
+        "cpu_avg_percent": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -6.93392857142857,
+            "mean": -6.74418956043956,
+            "min": -7.325384615384614,
+            "max": -5.783516483516486,
+            "cv_percent": 9.059101076241758
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -24.800174939303886,
+            "mean": -24.00268191390241,
+            "min": -26.08826671780401,
+            "max": -20.32211105919786,
+            "cv_percent": 9.352577334437722
+          }
+        },
+        "memory_peak_delta_mib": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -6.8500000000000085,
+            "mean": -11.825000000000003,
+            "min": -44.89999999999998,
+            "max": 11.299999999999983,
+            "cv_percent": 196.03530666688732
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -8.169791209480223,
+            "mean": -12.550589992797951,
+            "min": -49.77827050997781,
+            "max": 15.915492957746455,
+            "cv_percent": 220.52331502812658
+          }
+        },
+        "jfr_cpu_one_core_percent": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -5.853572108999998,
+            "mean": -5.800545646499998,
+            "min": -6.177721373999997,
+            "max": -5.317316993999999,
+            "cv_percent": 5.331670374123325
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -20.72617661127614,
+            "mean": -20.744473259455194,
+            "min": -22.32569211303033,
+            "max": -19.199847702238163,
+            "cv_percent": 5.3774737111266875
+          }
+        },
+        "jfr_allocation_pressure_mib_s": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -2.9541840329999998,
+            "mean": -2.96644930725,
+            "min": -3.026496807,
+            "max": -2.9309323560000005,
+            "cv_percent": 1.2117130525559021
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -39.42406079420641,
+            "mean": -39.56291584007166,
+            "min": -40.20505426925198,
+            "max": -39.198487502621845,
+            "cv_percent": 0.9749146650398265
+          }
+        },
+        "jfr_gc_pause_ratio_percent": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -0.06666874323185479,
+            "mean": -0.06557124726531605,
+            "min": -0.06910911968290166,
+            "max": -0.05983838291465293,
+            "cv_percent": 5.309973345382137
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -48.84024581862672,
+            "mean": -48.52941930817057,
+            "min": -50.55592261808754,
+            "max": -45.88126297734129,
+            "cv_percent": 3.4670488552278305
+          }
+        },
+        "jfr_platform_threads_max": {
+          "webflux_minus_mvc": {
+            "count": 4,
+            "median": -6.0,
+            "mean": -6.0,
+            "min": -6.0,
+            "max": -6.0,
+            "cv_percent": 0.0
+          },
+          "webflux_minus_mvc_percent": {
+            "count": 4,
+            "median": -22.22222222222222,
+            "mean": -22.22222222222222,
+            "min": -22.22222222222222,
+            "max": -22.22222222222222,
+            "cv_percent": 0.0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+
+                                                                        Java Methods that Executes the Most
+
+Method                                                                                                                                                              Samples Percent
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------- -------
+java.util.concurrent.ConcurrentHashMap.get(Object)                                                                                                                       17   2.39%
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor$Worker)                                                                                             10   1.40%
+java.util.HashMap.putVal(int, Object, Object, boolean, boolean)                                                                                                           9   1.26%
+org.springframework.util.ObjectUtils.nullSafeEquals(Object, Object)                                                                                                       9   1.26%
+ch.qos.logback.classic.LoggerContext.getTurboFilterChainDecision_0_3OrMore(Marker, Logger, Level, String, Object[], Throwable)                                            8   1.12%
+java.util.HashMap.getOrDefault(Object, Object)                                                                                                                            8   1.12%
+java.lang.StringLatin1.toLowerCase(String, byte[], Locale)                                                                                                                7   0.98%
+com.fasterxml.jackson.core.json.UTF8JsonGenerator._writeStringSegment(String, int, int)                                                                                   7   0.98%
+io.netty.channel.epoll.EpollEventLoop.run()                                                                                                                               6   0.84%
+java.util.concurrent.ConcurrentLinkedDeque.pollFirst()                                                                                                                    6   0.84%
+java.util.HashMap.putMapEntries(Map, boolean)                                                                                                                             6   0.84%
+java.lang.invoke.Invokers.checkCustomized(MethodHandle)                                                                                                                   5   0.70%
+reactor.core.publisher.MonoCreate$DefaultMonoSink.contextView()                                                                                                           5   0.70%
+io.netty.buffer.PoolArena.tcacheAllocateSmall(PoolThreadCache, PooledByteBuf, int, int)                                                                                   5   0.70%
+reactor.util.context.Context2.put(Object, Object)                                                                                                                         5   0.70%
+java.lang.String.equals(Object)                                                                                                                                           5   0.70%
+reactor.util.context.Context3.put(Object, Object)                                                                                                                         5   0.70%
+java.util.ArrayList.addAll(Collection)                                                                                                                                    5   0.70%
+java.util.Arrays.copyOf(Object[], int)                                                                                                                                    5   0.70%
+io.netty.util.DefaultAttributeMap.searchAttributeByKey(DefaultAttributeMap$DefaultAttribute[], AttributeKey)                                                              5   0.70%
+org.springframework.core.ResolvableType.resolveType()                                                                                                                     4   0.56%
+java.util.ComparableTimSort.countRunAndMakeAscending(Object[], int, int)                                                                                                  4   0.56%
+org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey.equals(Object)                                                                                             4   0.56%
+io.netty.util.internal.PlatformDependent.hashCodeAscii(CharSequence)                                                                                                      4   0.56%
+java.lang.invoke.DirectMethodHandle.allocateInstance(Object)                                                                                                              4   0.56%
